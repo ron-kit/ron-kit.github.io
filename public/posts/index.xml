@@ -6,13 +6,22 @@
     <description>Recent content in Posts on Ron&#39;s Engineering Journal</description>
     <generator>Hugo -- 0.134.3</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Sep 2024 22:38:04 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 25 Sep 2024 23:15:10 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Week 1: In Retrospect</title>
+      <link>http://localhost:1313/posts/blog1/blog1/</link>
+      <pubDate>Wed, 25 Sep 2024 23:15:10 -0700</pubDate>
+      <guid>http://localhost:1313/posts/blog1/blog1/</guid>
+      <description>&lt;p&gt;Welcome to my blog. Here I aim to write biweekly chronicles of what I am up to.&lt;/p&gt;
+&lt;p&gt;This inaugural post will document the assembly of my robot and my all-too-brief vacation.&lt;/p&gt;
+&lt;p&gt;Over the last four months my peers and I traversed the proving ground known as robot summer. May to June was the practice round, 6 classes in half a semester, piece of cake for the masochists that populate the faculty, but July marked the start of the scorch trial.&lt;/p&gt;</description>
+    </item>
+    <item>
       <title>Hello</title>
-      <link>http://localhost:1313/posts/hello/</link>
+      <link>http://localhost:1313/posts/hello/hello/</link>
       <pubDate>Wed, 25 Sep 2024 22:38:04 -0700</pubDate>
-      <guid>http://localhost:1313/posts/hello/</guid>
+      <guid>http://localhost:1313/posts/hello/hello/</guid>
       <description>&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to my blog&lt;/h1&gt;
 &lt;p&gt;This my &lt;del&gt;fifteenth iteration of my&lt;/del&gt; first post.&lt;/p&gt;
 &lt;h2 id=&#34;picture-of-me&#34;&gt;Picture of me&lt;/h2&gt;
