@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Ron&#39;s Engineering Journal</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Ron&#39;s Engineering Journal</description>
+    <generator>Hugo -- 0.134.3</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 25 Sep 2024 22:38:04 -0700</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Hello</title>
+      <link>http://localhost:1313/posts/hello/</link>
+      <pubDate>Wed, 25 Sep 2024 22:38:04 -0700</pubDate>
+      <guid>http://localhost:1313/posts/hello/</guid>
+      <description>&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to my blog&lt;/h1&gt;
+&lt;p&gt;This my &lt;del&gt;fifteenth iteration of my&lt;/del&gt; first post.&lt;/p&gt;
+&lt;h2 id=&#34;some-pictures-of-me&#34;&gt;Some pictures of me&lt;/h2&gt;
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;ronGolden.jpg&#34; alt=&#34;Golden Ears&#34;  /&gt;
+&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,4 @@
+baseURL = "https://ron-kit.github.io"
+languageCode = "en-us"
+title = "Ron's Engineering Journal"
+theme = "papermod"
