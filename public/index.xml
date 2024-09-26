@@ -53,8 +53,7 @@
       &lt;/tr&gt;
   &lt;/tbody&gt;
 &lt;/table&gt;
-&lt;p&gt;$$u(r,z,t) = \sum_{n=1}^\infty \sum_{m=1}^\infty \sin \left( \frac{m\pi z}{h}\right)J_0 \left( \sqrt{\mu_n}r \right)e^{-\lambda_{mn}Dt}$$&lt;/p&gt;
-
+$$u(r,z,t) = \sum_{n=1}^\infty \sum_{m=1}^\infty \sin \left( \frac{m\pi z}{h}\right)J_0 \left( \sqrt{\mu_n}r \right)e^{-\lambda_{mn}Dt}$$
 
     
     &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
