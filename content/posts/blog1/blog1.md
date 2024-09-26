@@ -1,7 +1,6 @@
 +++
 title = 'Week 1: In Retrospect'
 date = 2024-09-25T23:15:10-07:00
-draft = true
 +++
 
 Welcome to my blog. Here I aim to write biweekly chronicles of what I am up to.
