@@ -1,6 +1,7 @@
 +++
 title = 'Hello'
 date = 2024-09-25T22:38:04-07:00
+math = true
 +++
 
 # Welcome to my blog
