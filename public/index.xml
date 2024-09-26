@@ -16,8 +16,13 @@
       <description>&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to my blog&lt;/h1&gt;
 &lt;p&gt;This my &lt;del&gt;fifteenth iteration of my&lt;/del&gt; first post.&lt;/p&gt;
 &lt;h2 id=&#34;picture-of-me&#34;&gt;Picture of me&lt;/h2&gt;
-&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;ronGolden.jpg&#34; alt=&#34;Golden Ears&#34;  /&gt;
-&lt;/p&gt;</description>
+&lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;images/ronGolden.jpg&#34; alt=&#34;Golden Ears&#34;  /&gt;
+&lt;/p&gt;
+&lt;p&gt;Here I will test various Hugo and markdown features.&lt;/p&gt;
+&lt;p&gt;&lt;!-- raw HTML omitted --&gt; This is green,&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt; this is blue,&lt;!-- raw HTML omitted --&gt;
+&lt;!-- raw HTML omitted --&gt; this is purple&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
+&lt;p&gt;Hover over to see the &lt;!-- raw HTML omitted --&gt;secret message &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
