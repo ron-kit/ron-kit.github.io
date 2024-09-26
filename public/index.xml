@@ -15,7 +15,7 @@
       <guid>http://localhost:1313/posts/hello/</guid>
       <description>&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to my blog&lt;/h1&gt;
 &lt;p&gt;This my &lt;del&gt;fifteenth iteration of my&lt;/del&gt; first post.&lt;/p&gt;
-&lt;h2 id=&#34;some-pictures-of-me&#34;&gt;Some pictures of me&lt;/h2&gt;
+&lt;h2 id=&#34;picture-of-me&#34;&gt;Picture of me&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;ronGolden.jpg&#34; alt=&#34;Golden Ears&#34;  /&gt;
 &lt;/p&gt;</description>
     </item>
