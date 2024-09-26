@@ -5,11 +5,13 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Posts | Ron&#39;s Engineering Journal</title>
+<title>Week 1: In Retrospect | Ron&#39;s Engineering Journal</title>
 <meta name="keywords" content="">
-<meta name="description" content="Posts - Ron&#39;s Engineering Journal">
+<meta name="description" content="Welcome to my blog. Here I aim to write biweekly chronicles of what I am up to.
+This inaugural post will document the assembly of my robot.
+Over the last four months my peers and I traversed the proving ground known as robot summer. May to June was the practice round, 6 classes in half a semester, piece of cake for the masochists that populate the faculty, but July marked the start of the scorch trial.">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/">
+<link rel="canonical" href="http://localhost:1313/posts/blog1/">
 <link crossorigin="anonymous" href="/assets/css/stylesheet.54405a410796490bc874ab6181fac9b675753cc2b91375d8f882566459eca428.css" integrity="sha256-VEBaQQeWSQvIdKthgfrJtnV1PMK5E3XY&#43;IJWZFnspCg=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
@@ -18,8 +20,7 @@
 <link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/posts/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/blog1/">
 <noscript>
     <style>
         #theme-toggle,
@@ -64,7 +65,7 @@
 
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -107,43 +108,63 @@
         </ul>
     </nav>
 </header>
-<main class="main"> 
-<header class="page-header">
-  <h1>
-    Posts
-  </h1>
-</header>
+<main class="main">
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Week 1: In Retrospect
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Welcome to my blog. Here I aim to write biweekly chronicles of what I am up to.
-This inaugural post will document the assembly of my robot.
-Over the last four months my peers and I traversed the proving ground known as robot summer. May to June was the practice round, 6 classes in half a semester, piece of cake for the masochists that populate the faculty, but July marked the start of the scorch trial.
-...</p>
-  </div>
-  <footer class="entry-footer"><span title='2024-09-25 23:15:10 -0700 PDT'>September 25, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to Week 1: In Retrospect" href="http://localhost:1313/posts/blog1/"></a>
-</article>
+<article class="post-single">
+  <header class="post-header">
+    
+    <h1 class="post-title entry-hint-parent">
+      Week 1: In Retrospect
+    </h1>
+    <div class="post-meta"><span title='2024-09-25 23:15:10 -0700 PDT'>September 25, 2024</span>
 
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Hello
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Welcome to my blog This my fifteenth iteration of my first post.
-Picture of me Here I will test various Hugo and markdown features.
-This is green, this is blue, this is purple
-Hover over to see the secret message Left Right Up Italic Bold Down Strike Code $$u(r,z,t) = \sum_{n=1}^\infty \sum_{m=1}^\infty \sin \left( \frac{m\pi z}{h}\right)J_0 \left( \sqrt{\mu_n}r \right)e^{-\lambda_{mn}Dt}$$
-Happiness in intelligent people is the rarest thing I know.
-– Ernest Hemingway ...</p>
+</div>
+  </header> 
+  <div class="post-content"><p>Welcome to my blog. Here I aim to write biweekly chronicles of what I am up to.</p>
+<p>This inaugural post will document the assembly of my robot.</p>
+<p>Over the last four months my peers and I traversed the proving ground known as robot summer. May to June was the practice round, 6 classes in half a semester, piece of cake for the masochists that populate the faculty, but July marked the start of the scorch trial.</p>
+<p>For the first time ever we were to build 2 robots per team. A formidable challenge for even the sweats among our ranks.</p>
+<p>I found myself some carrys for mech and code and settled nicely into my elec role. After learning Altium in a couple days I got to work.</p>
+<p align="center">
+    <img src="images/schem.png">
+    <i>Fig. 1. Debouncer circuit by me.</i>
+</p>
+<p>This was one of many circuits used by the robot. Buttons tend to be &ldquo;bouncy&rdquo; and provide multiple outputs per press, so this board would smooth out the signal to a single rising edge.</p>
+<p align="center">
+    <img src="images/board.png">
+    <i>Fig. 2. PCB layout designed by yours truly.</i>
+</p>
+<p>Using my newfound altium expertise I put together this bad boy. The silly graphics are there because our team name was the Krusty Krab. (they should be yellow&hellip;)</p>
+<p align="center">
+    <img src="images/render.png">
+    <i>Fig. 3. A stunning render of my immaculate board.</i>
+</p>
+<p>Yes this is exactly what it looked like in real life. No there were no silly oversights. Yes we did end up using it in the final design. Very useful.</p>
+<p align="center">
+    <img src="images/wiring.jpg">
+    <i>Fig. 4. I wonder who connected this fabulous wiring.</i>
+</p>
+<p>August 7th, day before the competition. Our robots don&rsquo;t work. So we honored the age old tradition of pulling an all nighter to get them up to shape.</p>
+<p>Unfortunately this was my first ever all nighter. I did hand in my extended essay at 3, and completed my cardboard chair at 4, but never before did I bear witness to two consecutive sunrises. I celebrated with a couple others with a dons run.</p>
+<p><img loading="lazy" src="images/ronSunrise.jpg" alt="5 am"  />
+</p>
+<p align="center"> <i> it is 5 am in this photo </i> </p>
+<p>After testing through the night it was suddenly August 8th. Comp day.</p>
+<p>When it was our turn to shine we missed cheese once. Then twice. Then through frantic last minute adjustments a miracle happened.</p>
+<video>
+    <source src="videos/cheese.mp4" type="video/mp4">
+</video>
+<p>The keen eyed among you may notice that although the events discussed all occurred during summer, the publishing date is much later. This is because I <del>forgot</del> was very busy and <del>hate microsoft</del> didn&rsquo;t want to set up git in vscode. I tried building the site in codespaces probably at least 20 times using 2 different frameworks, but it would never upload. Today I finally pulled myself together and followed <a href="https://www.youtube.com/watch?v=zrmeOu8DYyw">this video</a>; with some help from chat it actually went quite smoothly.</p>
+<p>This was written up rather hastily and late at night so it will be revised soonish.</p>
+<p>Until next time.</p>
+
+
   </div>
-  <footer class="entry-footer"><span title='2024-09-25 22:38:04 -0700 PDT'>September 25, 2024</span></footer>
-  <a class="entry-link" aria-label="post link to Hello" href="http://localhost:1313/posts/hello/"></a>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+    </ul>
+  </footer>
 </article>
     </main>
     

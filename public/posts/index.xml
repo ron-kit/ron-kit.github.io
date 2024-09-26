@@ -10,28 +10,61 @@
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Week 1: In Retrospect</title>
-      <link>http://localhost:1313/posts/blog1/blog1/</link>
+      <link>http://localhost:1313/posts/blog1/</link>
       <pubDate>Wed, 25 Sep 2024 23:15:10 -0700</pubDate>
-      <guid>http://localhost:1313/posts/blog1/blog1/</guid>
+      <guid>http://localhost:1313/posts/blog1/</guid>
       <description>&lt;p&gt;Welcome to my blog. Here I aim to write biweekly chronicles of what I am up to.&lt;/p&gt;
-&lt;p&gt;This inaugural post will document the assembly of my robot and my all-too-brief vacation.&lt;/p&gt;
+&lt;p&gt;This inaugural post will document the assembly of my robot.&lt;/p&gt;
 &lt;p&gt;Over the last four months my peers and I traversed the proving ground known as robot summer. May to June was the practice round, 6 classes in half a semester, piece of cake for the masochists that populate the faculty, but July marked the start of the scorch trial.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Hello</title>
-      <link>http://localhost:1313/posts/hello/hello/</link>
+      <link>http://localhost:1313/posts/hello/</link>
       <pubDate>Wed, 25 Sep 2024 22:38:04 -0700</pubDate>
-      <guid>http://localhost:1313/posts/hello/hello/</guid>
+      <guid>http://localhost:1313/posts/hello/</guid>
       <description>&lt;h1 id=&#34;welcome-to-my-blog&#34;&gt;Welcome to my blog&lt;/h1&gt;
 &lt;p&gt;This my &lt;del&gt;fifteenth iteration of my&lt;/del&gt; first post.&lt;/p&gt;
 &lt;h2 id=&#34;picture-of-me&#34;&gt;Picture of me&lt;/h2&gt;
 &lt;p&gt;&lt;img loading=&#34;lazy&#34; src=&#34;images/ronGolden.jpg&#34; alt=&#34;Golden Ears&#34;  /&gt;
 &lt;/p&gt;
 &lt;p&gt;Here I will test various Hugo and markdown features.&lt;/p&gt;
-&lt;p&gt;&lt;!-- raw HTML omitted --&gt; This is green,&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt; this is blue,&lt;!-- raw HTML omitted --&gt;
-&lt;!-- raw HTML omitted --&gt; this is purple&lt;!-- raw HTML omitted --&gt;&lt;/p&gt;
-&lt;p&gt;Hover over to see the &lt;!-- raw HTML omitted --&gt;secret message &lt;!-- raw HTML omitted --&gt;&lt;/p&gt;</description>
+&lt;p&gt;&lt;span style=&#34;color:green&#34;&gt; This is green,&lt;/span&gt;
+&lt;span style=&#34;color:blue&#34;&gt; this is blue,&lt;/span&gt;
+&lt;span style=&#34;color:purple&#34;&gt; this is purple&lt;/span&gt;&lt;/p&gt;
+&lt;p&gt;Hover over to see the &lt;abbr title=&#34;Eat your vegetables&#34;&gt;secret message &lt;/abbr&gt;&lt;/p&gt;
+&lt;table&gt;
+  &lt;thead&gt;
+      &lt;tr&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Left&lt;/th&gt;
+          &lt;th style=&#34;text-align: left&#34;&gt;Right&lt;/th&gt;
+      &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Up&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;em&gt;Italic&lt;/em&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Bold&lt;/strong&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+      &lt;tr&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;strong&gt;Down&lt;/strong&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;del&gt;Strike&lt;/del&gt;&lt;/td&gt;
+          &lt;td style=&#34;text-align: left&#34;&gt;&lt;code&gt;Code&lt;/code&gt;&lt;/td&gt;
+      &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+&lt;p&gt;$$u(r,z,t) = \sum_{n=1}^\infty \sum_{m=1}^\infty \sin \left( \frac{m\pi z}{h}\right)J_0 \left( \sqrt{\mu_n}r \right)e^{-\lambda_{mn}Dt}$$&lt;/p&gt;
+
+
+    
+    &lt;div style=&#34;position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;&#34;&gt;
+      &lt;iframe allow=&#34;accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share&#34; allowfullscreen=&#34;allowfullscreen&#34; loading=&#34;eager&#34; referrerpolicy=&#34;strict-origin-when-cross-origin&#34; src=&#34;https://www.youtube.com/embed/v99dHD9oWfU?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0&#34; style=&#34;position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;&#34; title=&#34;YouTube video&#34;
+      &gt;&lt;/iframe&gt;
+    &lt;/div&gt;
+
+&lt;blockquote&gt;
+&lt;p&gt;Happiness in intelligent people is the rarest thing I know.&lt;br&gt;
+– &lt;cite&gt; Ernest Hemingway &lt;/cite&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
