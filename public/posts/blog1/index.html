@@ -1,237 +1,154 @@
 <!DOCTYPE html>
-<html lang="en" dir="auto">
+<html lang="en">
+	<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+		<meta charset="utf-8"/>
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<meta name="generator" content="Hugo 0.135.0">
+		<title>1: Robot - Ron&#39;s Engineering Journal</title>
 
-<head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script><meta charset="utf-8">
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<meta name="robots" content="noindex, nofollow">
-<title>Week 1: In Retrospect | Ron&#39;s Engineering Journal</title>
-<meta name="keywords" content="">
-<meta name="description" content="Welcome to my blog. Here I aim to write biweekly chronicles of what I am up to.
-This inaugural post will document the assembly of my robot.
-Over the last four months my peers and I traversed the proving ground known as robot summer. May to June was the practice round, 6 classes in half a semester, piece of cake for the masochists that populate the faculty, but July marked the start of the scorch trial.">
-<meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/posts/blog1/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.54405a410796490bc874ab6181fac9b675753cc2b91375d8f882566459eca428.css" integrity="sha256-VEBaQQeWSQvIdKthgfrJtnV1PMK5E3XY&#43;IJWZFnspCg=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/safari-pinned-tab.svg">
-<meta name="theme-color" content="#2e2e33">
-<meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/posts/blog1/">
-<noscript>
-    <style>
-        #theme-toggle,
-        .top-link {
-            display: none;
-        }
+		<meta name="description" content="Hello and welcome to my first real update. This inaugural post will (briefly) document the assembly of my team&rsquo;s robots for the ENPH253 course.
+Our challenge this year was unlike any previous one: we had to build not one, but two fully autonomous robots that could serve 3d printed food.
+I took on the role of electrical designer and learned Altium in the first few days of the project. Along with manufacturing some parts for the robots and troubleshooting their behavior with code I iterated through many trial circuits and designed some PCBs.">
 
-    </style>
-    <style>
-        @media (prefers-color-scheme: dark) {
-            :root {
-                --theme: rgb(29, 30, 32);
-                --entry: rgb(46, 46, 51);
-                --primary: rgb(218, 218, 219);
-                --secondary: rgb(155, 156, 157);
-                --tertiary: rgb(65, 66, 68);
-                --content: rgb(196, 196, 197);
-                --code-block-bg: rgb(46, 46, 51);
-                --code-bg: rgb(55, 56, 62);
-                --border: rgb(51, 51, 51);
-            }
 
-            .list {
-                background: var(--theme);
-            }
+		
+	
+		
 
-            .list:not(.dark)::-webkit-scrollbar-track {
-                background: 0 0;
-            }
 
-            .list:not(.dark)::-webkit-scrollbar-thumb {
-                border-color: var(--theme);
-            }
-        }
 
-    </style>
-</noscript>
-</head>
 
-<body class="" id="top">
-<script>
-    if (localStorage.getItem("pref-theme") === "dark") {
-        document.body.classList.add('dark');
-    } else if (localStorage.getItem("pref-theme") === "light") {
-        document.body.classList.remove('dark')
-    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
-        document.body.classList.add('dark');
-    }
+<link rel="stylesheet" href="/css/ui.css">
 
-</script>
+	
+		
 
-<header class="header">
-    <nav class="nav">
-        <div class="logo">
-            <a href="http://localhost:1313/" accesskey="h" title="Ron&#39;s Engineering Journal (Alt + H)">Ron&#39;s Engineering Journal</a>
-            <div class="logo-switches">
-                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
-                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
-                    </svg>
-                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
-                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
-                        stroke-linejoin="round">
-                        <circle cx="12" cy="12" r="5"></circle>
-                        <line x1="12" y1="1" x2="12" y2="3"></line>
-                        <line x1="12" y1="21" x2="12" y2="23"></line>
-                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
-                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
-                        <line x1="1" y1="12" x2="3" y2="12"></line>
-                        <line x1="21" y1="12" x2="23" y2="12"></line>
-                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
-                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
-                    </svg>
-                </button>
-            </div>
-        </div>
-        <ul id="menu">
-        </ul>
-    </nav>
+		<script defer src="/js/dark-mode.js"></script>
+		<link disabled id="dark-mode-theme" rel="stylesheet" href="/css/dark.css">
+		<link  rel="stylesheet" href="https://fonts.googleapis.com/css?family=Fira+Mono|Lato|Raleway">
+
+		
+	</head>
+
+<body>
+<header class="container no-print">
+	<div class="u-header">
+		<nav class="bar">
+	<ul><li>
+			<a href="/">
+				<img class="icon-text" src="/img/prev.svg"/>
+			</a>
+		</li><li><img class="icon-text" id="dark-mode-toggle" src="/img/moon-regular.svg" alt="Toggle Dark Mode"></a></li></ul>
+</nav>
+
+	</div>
 </header>
-<main class="main">
+<main class="container">
 
-<article class="post-single">
-  <header class="post-header">
-    
-    <h1 class="post-title entry-hint-parent">
-      Week 1: In Retrospect
-    </h1>
-    <div class="post-meta"><span title='2024-09-25 23:15:10 -0700 PDT'>September 25, 2024</span>
-
-</div>
-  </header> 
-  <div class="post-content"><p>Welcome to my blog. Here I aim to write biweekly chronicles of what I am up to.</p>
-<p>This inaugural post will document the assembly of my robot.</p>
-<p>Over the last four months my peers and I traversed the proving ground known as robot summer. May to June was the practice round, 6 classes in half a semester, piece of cake for the masochists that populate the faculty, but July marked the start of the scorch trial.</p>
-<p>For the first time ever we were to build 2 robots per team. A formidable challenge for even the sweats among our ranks.</p>
-<p>I found myself some carrys for mech and code and settled nicely into my elec role. After learning Altium in a couple days I got to work.</p>
+<article>
+	<header><hgroup id="brand">
+	<h1>1: Robot</h1>
+	<h5>
+		
+		<time datetime="2024-09-25 23:15:10 -0700 PDT">Sep 25, 2024</time>
+		<span class="no-print">
+			<span>
+	</h5>
+	
+</hgroup>
+<hr class="sep" />
+</header>
+	<p>Hello and welcome to my first real update. This inaugural post will (briefly) document the assembly of my team&rsquo;s robots for the ENPH253 course.</p>
+<p>Our challenge this year was unlike any previous one: we had to build not one, but two fully autonomous robots that could serve 3d printed food.</p>
+<p>I took on the role of electrical designer and learned Altium in the first few days of the project. Along with manufacturing some parts for the robots and troubleshooting their behavior with code I iterated through many trial circuits and designed some PCBs.</p>
 <p align="center">
     <img src="images/schem.png">
     <i>Fig. 1. Debouncer circuit by me.</i>
 </p>
-<p>This was one of many circuits used by the robot. Buttons tend to be &ldquo;bouncy&rdquo; and provide multiple outputs per press, so this board would smooth out the signal to a single rising edge.</p>
+<p>This was one of many circuits used by the robot. Buttons tend to be &ldquo;bouncy&rdquo; and provide multiple outputs per press, so this board smoothed out the erratic signal to a single rising edge.</p>
 <p align="center">
     <img src="images/board.png">
     <i>Fig. 2. PCB layout designed by yours truly.</i>
 </p>
-<p>Using my newfound altium expertise I put together this bad boy. The silly graphics are there because our team name was the Krusty Krab. (they should be yellow&hellip;)</p>
+<p>Using my world-class altium expertise I put together this bad boy. The silly graphics are there because our team name was the Krusty Krab. (they should be yellow, as red means wiring&hellip; not sure what happen)</p>
 <p align="center">
     <img src="images/render.png">
     <i>Fig. 3. A stunning render of my immaculate board.</i>
 </p>
-<p>Yes this is exactly what it looked like in real life. No there were no silly oversights. Yes we did end up using it in the final design. Very useful.</p>
+<p>Yes this is exactly what it looked like in real life. No there were no silly oversights. Of course not.</p>
 <p align="center">
     <img src="images/wiring.jpg">
     <i>Fig. 4. I wonder who connected this fabulous wiring.</i>
 </p>
-<p>August 7th, day before the competition. Our robots don&rsquo;t work. So we honored the age old tradition of pulling an all nighter to get them up to shape.</p>
-<p>Unfortunately this was my first ever all nighter. I did hand in my extended essay at 3, and completed my cardboard chair at 4, but never before did I bear witness to two consecutive sunrises. I celebrated with a couple others with a dons run.</p>
-<p><img loading="lazy" src="images/ronSunrise.jpg" alt="5 am"  />
-</p>
-<p align="center"> <i> it is 5 am in this photo </i> </p>
-<p>After testing through the night it was suddenly August 8th. Comp day.</p>
-<p>When it was our turn to shine we missed cheese once. Then twice. Then through frantic last minute adjustments a miracle happened.</p>
-<video>
+<p>On August 7th, the day before the competition, our robots did not work. So we did what generations of students have done before us and partook in the traditional all-nighter to complete it.</p>
+<p>Unfortunately this was my first ever all nighter. The latest I have ever submitted an assignment (and consequently gone to bed) was probably 4 or 5, but until that day I had never witnessed two consecutive sunrises in a row.</p>
+<p><img src="images/ronSunrise.jpg" alt="5 am"></p>
+<p align="center"> <i> I celebrated with a couple others with a mcdonalds run. It is 5 am in this photo </i> </p>
+<p>After testing through the night it was comp day. We had practically rebuilt our robots from scratch and simplified our objective from assembling a burger (which required many steps such as cooking, stacking, and coordinating) to delivering a piece of cheese on a plate. Having once ridiculed the absurdity of this &lsquo;recipe&rsquo; the irony of this was not lost on us.</p>
+<p>When it was our turn to shine, we first missed the cheese. Then the plate. Then through frantic last minute adjustments a miracle happened.</p>
+<video width="640" height="360" controls>
     <source src="videos/cheese.mp4" type="video/mp4">
+    Your browser does not support the video tag.
 </video>
-<p>The keen eyed among you may notice that although the events discussed all occurred during summer, the publishing date is much later. This is because I <del>forgot</del> was very busy and <del>hate microsoft</del> didn&rsquo;t want to set up git in vscode. I tried building the site in codespaces probably at least 20 times using 2 different frameworks, but it would never upload. Today I finally pulled myself together and followed <a href="https://www.youtube.com/watch?v=zrmeOu8DYyw">this video</a>; with some help from chat it actually went quite smoothly.</p>
-<p>This was written up rather hastily and late at night so it will be revised soonish.</p>
+
+<p>This absolute trooper pulled through and served the cheese to the ecstatic audience. Next to our opponents who were cooking up a storm, that may not have looked like much, but I think it was evident in our reaction that the cheese plate was the culmination of hundreds of man-hours of effort, and the audience clearly recognized it. I may be falling victim to self-serving bias, but after experiencing the event and rewatching the stream, I still think our cheese plate got the most vigorous applause of the entire event.</p>
+<p><img src="images/spongebob.jpg" alt="Spongebob">
+<img src="images/squidward.jpg" alt="Squidward">
+<em>Our beloved robots.</em></p>
+<p>The keen eyed among you may notice that although the events discussed all occurred during summer, the publishing date is much later. This is because I <del>forgot</del> was very busy and <del>hate microsoft</del> didn&rsquo;t want to set up git in vscode. I tried building the site in codespaces probably at least 20 times using 2 different frameworks, but it would never upload. Today I finally pulled myself together and followed <a href="https://www.youtube.com/watch?v=zrmeOu8DYyw">this tutorial</a>; with some help from chat it actually went quite smoothly.</p>
+<p><del>This was written up rather hastily and late at night so it will be revised soonish.</del></p>
 <p>Until next time.</p>
 
-
-  </div>
-
-  <footer class="post-footer">
-    <ul class="post-tags">
-    </ul>
-  </footer>
 </article>
-    </main>
-    
-<footer class="footer">
-        <span>&copy; 2024 <a href="http://localhost:1313/">Ron&#39;s Engineering Journal</a></span> · 
-
-    <span>
-        Powered by
-        <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
-        <a href="https://github.com/adityatelange/hugo-PaperMod/" rel="noopener" target="_blank">PaperMod</a>
-    </span>
-</footer>
-<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
-    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
-        <path d="M12 6H0l6-6z" />
-    </svg>
-</a>
+<nav class="no-print post-nav">
 
 <script>
-    let menu = document.getElementById('menu')
-    if (menu) {
-        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
-        menu.onscroll = function () {
-            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
-        }
-    }
-
-    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-        anchor.addEventListener("click", function (e) {
-            e.preventDefault();
-            var id = this.getAttribute("href").substr(1);
-            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
-                    behavior: "smooth"
-                });
-            } else {
-                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
-            }
-            if (id === "top") {
-                history.replaceState(null, null, " ");
-            } else {
-                history.pushState(null, null, `#${id}`);
-            }
+    document.addEventListener("DOMContentLoaded", function() {
+        renderMathInElement(document.body, {
+            delimiters: [
+                {left: "$$", right: "$$", display: true},
+                {left: "$", right: "$", display: false}
+            ]
         });
     });
-
 </script>
-<script>
-    var mybutton = document.getElementById("top-link");
-    window.onscroll = function () {
-        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
-            mybutton.style.visibility = "visible";
-            mybutton.style.opacity = "1";
-        } else {
-            mybutton.style.visibility = "hidden";
-            mybutton.style.opacity = "0";
-        }
-    };
 
-</script>
-<script>
-    document.getElementById("theme-toggle").addEventListener("click", () => {
-        if (document.body.className.includes("dark")) {
-            document.body.classList.remove('dark');
-            localStorage.setItem("pref-theme", 'light');
-        } else {
-            document.body.classList.add('dark');
-            localStorage.setItem("pref-theme", 'dark');
-        }
-    })
+	<a class="prev-post" href="http://localhost:1313/posts/hello/">
+		<img class="icon-text" src="/img/prev.svg"/>Welcome</a>
 
-</script>
-</body>
 
+</nav>
+
+
+
+
+
+			<hr class="sep" />
+		</main>
+		<footer class="container no-print">
+			<div class="u-footer">
+				
+
+
+<a href="http://localhost:1313/posts/blog1/" target="_blank"><img class="icon-social" src="/img/feed.svg" alt="Feed"></a>
+
+
+				<p>
+					
+					Theme used: <a href="https://github.com/yursan9/manis-hugo-theme">Manis</a><br>
+					
+					
+					
+				</p>
+				
+				<a href="#brand">
+					<img class="icon-text" src="/img/toup.svg" alt="To Up"/>
+					<span>Back to Up</span>
+				</a>
+				
+			</div>
+		</footer>
+		
+	</body>
 </html>
+

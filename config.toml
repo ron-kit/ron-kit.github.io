@@ -1,12 +1,7 @@
 baseURL = "https://ron-kit.github.io"
 languageCode = "en-us"
 title = "Ron's Engineering Journal"
-theme = "stack"
+theme = "manis"
 
-[markup]
-  [markup.goldmark]
-    [markup.goldmark.renderer]
-      unsafe = true
-
-[params]
-  math = true
+[markup.goldmark.renderer]
+  unsafe = true
