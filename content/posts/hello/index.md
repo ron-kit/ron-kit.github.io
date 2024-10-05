@@ -1,17 +1,21 @@
 +++
-title = 'Welcome'
+title = '0. Hello'
 date = 2024-09-03T22:38:04-07:00
 math = true
 +++
 
 # Hello
-Here is my first post, at least the first that made it out of local testing and into deployment.
 
-I will update this blog weekly with chronicles of my escapades as well as those less exciting things called projects.
+Welcome to my blog. Here is my first post, at least the first that made it out of local testing and into deployment.
+
+I will update this blog biweekly with chronicles of my escapades as well as those less exciting things called projects.
 
 Thanks to  [Steven Chen](https://shengw3n.github.io/) for inspiring me to start this and helping set it up.
 
-Below I will test various Hugo and markdown features.
+My other stuff can be found on my [github](https://github.com/ron-kit/) or [gitlab](). I prefer the latter as it isn't microsoft affiliated, but it is trickier to use, as it couldn't deploy this site no matter what I tried. Eventually I'd like to move there.
+---
+
+Below I'll test various Hugo and markdown features.
 
 ### Picture of me on Golden Ears
 
