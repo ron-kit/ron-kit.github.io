@@ -6,19 +6,19 @@
     <description>Recent content in Posts on Ron&#39;s Engineering Journal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Wed, 25 Sep 2024 23:15:10 -0700</lastBuildDate>
+    <lastBuildDate>Fri, 06 Sep 2024 23:15:10 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
-      <title>Week 1: Robot</title>
+      <title>1: Robot</title>
       <link>http://localhost:1313/posts/blog1/</link>
-      <pubDate>Wed, 25 Sep 2024 23:15:10 -0700</pubDate>
+      <pubDate>Fri, 06 Sep 2024 23:15:10 -0700</pubDate>
       <guid>http://localhost:1313/posts/blog1/</guid>
-      <description>&lt;p&gt;Welcome to my blog. Here I aim to write biweekly chronicles of what I am up to.&lt;/p&gt;&#xA;&lt;p&gt;This inaugural post will (briefly) document the assembly of my robot for the ENPH253 course.&lt;/p&gt;&#xA;&lt;p align=&#34;center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;images/schem.png&#34;&gt;&#xD;&#xA;    &lt;i&gt;Fig. 1. Debouncer circuit by me.&lt;/i&gt;&#xD;&#xA;&lt;/p&gt;&#xD;&#xA;&lt;p&gt;This was one of many circuits used by the robot. Buttons tend to be &amp;ldquo;bouncy&amp;rdquo; and provide multiple outputs per press, so this board would smooth out the signal to a single rising edge.&lt;/p&gt;</description>
+      <description>&lt;p&gt;Hello and welcome to the first real content of my blog. This inaugural post will (briefly) document the assembly of my team&amp;rsquo;s robots for the ENPH253 course.&lt;/p&gt;&#xA;&lt;p&gt;Our challenge this year was unlike any previous one: we had to build not one, but two fully autonomous robots that could cook, assemble, and serve 3d printed food. There were a variety of recipes, ranging from simple salads to deluxe cheeseburgers.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;images/surface.png&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;i&gt;Fig. 1. The competition surface.&lt;/i&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Welcome</title>
       <link>http://localhost:1313/posts/hello/</link>
-      <pubDate>Wed, 25 Sep 2024 22:38:04 -0700</pubDate>
+      <pubDate>Tue, 03 Sep 2024 22:38:04 -0700</pubDate>
       <guid>http://localhost:1313/posts/hello/</guid>
       <description>&lt;h1 id=&#34;hello&#34;&gt;Hello&lt;/h1&gt;&#xA;&lt;p&gt;Here is my first post, at least the first that made it out of local testing and into deployment.&lt;/p&gt;&#xA;&lt;p&gt;I will update this blog weekly with chronicles of my escapades as well as those less exciting things called projects.&lt;/p&gt;&#xA;&lt;p&gt;Thanks to  &lt;a href=&#34;https://shengw3n.github.io/&#34;&gt;Steven Chen&lt;/a&gt; for inspiring me to start this and helping set it up.&lt;/p&gt;&#xA;&lt;p&gt;Below I will test various Hugo and markdown features.&lt;/p&gt;&#xA;&lt;h3 id=&#34;picture-of-me-on-golden-ears&#34;&gt;Picture of me on Golden Ears&lt;/h3&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/ronGolden.jpg&#34; alt=&#34;Golden Ears&#34;&gt;&lt;/p&gt;</description>
     </item>
