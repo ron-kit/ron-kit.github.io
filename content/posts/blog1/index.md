@@ -1,7 +1,6 @@
 +++
 title = '1: Robot'
-date = 2024-09-06T23:15:10-07:00
-count = 1
+date = 2024-09-07T23:15:10-07:00
 +++
 
 Hello and welcome to the first real content of my blog. This inaugural post will (briefly) document the assembly of my team's robots for the ENPH253 course.
@@ -18,11 +17,11 @@ This was one of many circuits used by the robot. Buttons tend to be "bouncy" and
 
 {{<image src="images/board.png" caption="Fig. 3. PCB layout designed by yours truly.">}}
 
-Using my world-class altium expertise I put together this bad boy. The silly graphics are there because our team name was the Krusty Krab. (they should be yellow, as red means wiring... not sure what happen)
+Using my world-class altium expertise I put together this bad boy. The silly graphics are there because our team name was the Krusty Krab. (they should be yellow, as red means wiring... not sure what happened...)
 
 {{<image src="images/render.png" caption="Fig. 4. A stunning render of my immaculate board." >}}
 
-Yes this is exactly what it looked like in real life. No there were no silly oversights. Of course not.
+The board looked almost exactly like this in real life. The only issue that arose was the lab running out of the correct size capacitors, so I had to solder two larger ones in series for the same effect. 
 
 {{<image src="images/wiring.jpg" caption="Fig. 5. I wonder who connected this fabulous wiring.">}}
 

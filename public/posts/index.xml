@@ -6,21 +6,21 @@
     <description>Recent content in Posts on Ron&#39;s Engineering Journal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 06 Sep 2024 23:15:10 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 07 Sep 2024 23:15:10 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>1: Robot</title>
       <link>http://localhost:1313/posts/blog1/</link>
-      <pubDate>Fri, 06 Sep 2024 23:15:10 -0700</pubDate>
+      <pubDate>Sat, 07 Sep 2024 23:15:10 -0700</pubDate>
       <guid>http://localhost:1313/posts/blog1/</guid>
       <description>&lt;p&gt;Hello and welcome to the first real content of my blog. This inaugural post will (briefly) document the assembly of my team&amp;rsquo;s robots for the ENPH253 course.&lt;/p&gt;&#xA;&lt;p&gt;Our challenge this year was unlike any previous one: we had to build not one, but two fully autonomous robots that could cook, assemble, and serve 3d printed food. There were a variety of recipes, ranging from simple salads to deluxe cheeseburgers.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;images/surface.png&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;i&gt;Fig. 1. The competition surface.&lt;/i&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>0. Hello</title>
       <link>http://localhost:1313/posts/hello/</link>
-      <pubDate>Tue, 03 Sep 2024 22:38:04 -0700</pubDate>
+      <pubDate>Sat, 31 Aug 2024 22:38:04 -0700</pubDate>
       <guid>http://localhost:1313/posts/hello/</guid>
-      <description>&lt;h1 id=&#34;hello&#34;&gt;Hello&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to my blog. Here is my first post, at least the first that made it out of local testing and into deployment.&lt;/p&gt;&#xA;&lt;p&gt;I will update this blog biweekly with chronicles of my escapades as well as those less exciting things called projects.&lt;/p&gt;&#xA;&lt;p&gt;Thanks to  &lt;a href=&#34;https://shengw3n.github.io/&#34;&gt;Steven Chen&lt;/a&gt; for inspiring me to start this and helping set it up.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-other-stuff-can-be-found-on-my-githubhttpsgithubcomron-kit-or-gitlab-i-prefer-the-latter-as-it-isnt-microsoft-affiliated-but-it-is-trickier-to-use-as-it-couldnt-deploy-this-site-no-matter-what-i-tried-eventually-id-like-to-move-there&#34;&gt;My other stuff can be found on my &lt;a href=&#34;https://github.com/ron-kit/&#34;&gt;github&lt;/a&gt; or &lt;a href=&#34;&#34;&gt;gitlab&lt;/a&gt;. I prefer the latter as it isn&amp;rsquo;t microsoft affiliated, but it is trickier to use, as it couldn&amp;rsquo;t deploy this site no matter what I tried. Eventually I&amp;rsquo;d like to move there.&lt;/h2&gt;&#xA;&lt;p&gt;Below I&amp;rsquo;ll test various Hugo and markdown features.&lt;/p&gt;</description>
+      <description>&lt;h1 id=&#34;hello&#34;&gt;Hello&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to my blog. Here is my first post, at least the first that made it out of local testing and into deployment.&lt;/p&gt;&#xA;&lt;p&gt;I will update this blog biweekly with chronicles of my escapades as well as those less exciting things called projects.&lt;/p&gt;&#xA;&lt;p&gt;Thanks to  &lt;a href=&#34;https://shengw3n.github.io/&#34;&gt;Steven Chen&lt;/a&gt; for inspiring me to start this and helping set it up.&lt;/p&gt;&#xA;&lt;h2 id=&#34;my-other-stuff-can-be-found-on-my-githubhttpsgithubcomron-kit-or-gitlabhttpsgitlabcomron-kit-i-prefer-the-latter-as-it-isnt-microsoft-affiliated-but-it-is-trickier-to-use-as-it-couldnt-deploy-this-site-no-matter-what-i-tried-eventually-id-like-to-move-there&#34;&gt;My other stuff can be found on my &lt;a href=&#34;https://github.com/ron-kit/&#34;&gt;github&lt;/a&gt; or &lt;a href=&#34;https://gitlab.com/ron-kit/&#34;&gt;gitlab&lt;/a&gt;. I prefer the latter as it isn&amp;rsquo;t microsoft affiliated, but it is trickier to use, as it couldn&amp;rsquo;t deploy this site no matter what I tried. Eventually I&amp;rsquo;d like to move there.&lt;/h2&gt;&#xA;&lt;p&gt;Below I&amp;rsquo;ll test various Hugo and markdown features.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
