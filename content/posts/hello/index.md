@@ -1,6 +1,6 @@
 +++
 title = 'Welcome'
-date = 2024-09-25T22:38:04-07:00
+date = 2024-09-03T22:38:04-07:00
 math = true
 +++
 
@@ -36,7 +36,4 @@ Hover over to see the <abbr title="Eat your vegetables">secret message </abbr>
 
 $$u(r,z,t) = \sum_{n=1}^\infty \sum_{m=1}^\infty \sin \left( \frac{m\pi z}{h}\right)J_0 \left( \sqrt{\mu_n}r \right)e^{-\lambda_{mn}Dt}$$
 
-{{<youtube "v99dHD9oWfU">}}
-
-> Happiness in intelligent people is the rarest thing I know.<br>
-> – <cite> Ernest Hemingway </cite>
+{{<youtube "tZ2hQ_3FzQs">}}
