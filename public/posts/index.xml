@@ -6,8 +6,22 @@
     <description>Recent content in Posts on Ron&#39;s Engineering Journal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 07 Sep 2024 23:15:10 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 05 Oct 2024 10:59:58 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>3: Joining Orbit</title>
+      <link>http://localhost:1313/posts/blog3/</link>
+      <pubDate>Sat, 05 Oct 2024 10:59:58 -0700</pubDate>
+      <guid>http://localhost:1313/posts/blog3/</guid>
+      <description>&lt;p&gt;Last week I joined &lt;a href=&#34;https://www.ubcorbit.com&#34;&gt;UBC Orbit&lt;/a&gt;, a design team that is working on ALEASAT, a satellite equipped with radio and camera capabilities that can take and send pictures of any* location on earth.&lt;/p&gt;&#xA;&lt;p&gt;*&lt;sub&gt;excluding military bases, nuclear silos, alien colonies, etc.&lt;/sub&gt;&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>2: Starting Third Year</title>
+      <link>http://localhost:1313/posts/blog2/</link>
+      <pubDate>Sat, 21 Sep 2024 22:36:59 -0700</pubDate>
+      <guid>http://localhost:1313/posts/blog2/</guid>
+      <description>&lt;p&gt;I am now a 3rd year student. It feels like just yesterday I was building cardboard chairs and claws, and two days ago I  Time really flies.&lt;/p&gt;&#xA;&lt;p&gt;|&amp;mdash;&amp;ndash;|&amp;mdash;&amp;mdash;&amp;ndash;|&amp;mdash;&amp;mdash;&amp;ndash;|&amp;mdash;&amp;mdash;&amp;ndash;|&amp;mdash;&amp;mdash;&amp;ndash;|&amp;mdash;&amp;mdash;&amp;ndash;|&#xA;|9:00 |MATH 400|        |MATH 400|        |MATH 400|&#xA;|9:30 |&amp;mdash;&amp;mdash;&amp;ndash;|PHYS 301|&amp;mdash;&amp;mdash;&amp;ndash;|PHYS 301|&amp;mdash;&amp;mdash;&amp;ndash;|&#xA;|10:00|        |        |PHYS301T|        |        |&#xA;|10:30|        |&amp;mdash;&amp;mdash;&amp;ndash;|&amp;mdash;&amp;mdash;&amp;ndash;|&amp;mdash;&amp;mdash;&amp;ndash;|        |&#xA;|11:00|PHYS 304|MECH 325|PHYS 304|MECH 325|PHYS 304|&#xA;|11:30|&amp;mdash;&amp;mdash;&amp;ndash;|        |&amp;mdash;&amp;mdash;&amp;ndash;|        |&amp;mdash;&amp;mdash;&amp;ndash;|&#xA;|12:00|APSC 278|&amp;mdash;&amp;mdash;&amp;ndash;|APSC 278|&amp;mdash;&amp;mdash;&amp;ndash;|APSC 278|&#xA;|12:30|&amp;mdash;&amp;mdash;&amp;ndash;|        |&amp;mdash;&amp;mdash;&amp;ndash;|        |&amp;mdash;&amp;mdash;&amp;ndash;|&#xA;|13:00|MATH 307|        |MATH 307|        |MATH 307|&#xA;|13:30|&amp;mdash;&amp;mdash;&amp;ndash;|        |&amp;mdash;&amp;mdash;&amp;ndash;|        |&amp;mdash;&amp;mdash;&amp;ndash;|&#xA;|14:00|&#xA;|14:30|&#xA;|15:00|&#xA;|15:30|        |MECH325T|        |MECH325T|&#xA;|16:00|&lt;/p&gt;</description>
+    </item>
     <item>
       <title>1: Robot</title>
       <link>http://localhost:1313/posts/blog1/</link>
