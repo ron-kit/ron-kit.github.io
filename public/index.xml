@@ -6,22 +6,8 @@
     <description>Recent content on Ron&#39;s Engineering Journal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Oct 2024 10:59:58 -0700</lastBuildDate>
+    <lastBuildDate>Sat, 07 Sep 2024 23:15:10 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>3: Joining Orbit</title>
-      <link>http://localhost:1313/posts/blog3/</link>
-      <pubDate>Sat, 05 Oct 2024 10:59:58 -0700</pubDate>
-      <guid>http://localhost:1313/posts/blog3/</guid>
-      <description>&lt;p&gt;Last week I joined &lt;a href=&#34;https://www.ubcorbit.com&#34;&gt;UBC Orbit&lt;/a&gt;, a design team that is working on ALEASAT, a satellite equipped with radio and camera capabilities that can take and send pictures of any* location on earth.&lt;/p&gt;&#xA;&lt;p&gt;*&lt;sub&gt;excluding military bases, nuclear silos, alien colonies, etc.&lt;/sub&gt;&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>2: Starting Third Year</title>
-      <link>http://localhost:1313/posts/blog2/</link>
-      <pubDate>Sat, 21 Sep 2024 22:36:59 -0700</pubDate>
-      <guid>http://localhost:1313/posts/blog2/</guid>
-      <description>&lt;p&gt;I am now a 3rd year student. For anybody else this would indicate the halfway point of their university experience, but in my program I&amp;rsquo;ll be lucky if it&amp;rsquo;s a third.&lt;/p&gt;&#xA;&lt;p&gt;Still, time flies. It feels like just yesterday I was building cardboard chairs and claws, and just a day before that I was But this makes sense: due to logarithmic time perception you&amp;rsquo;ll feel like you&amp;rsquo;ve lived &lt;u&gt;&lt;a href=&#34;https://suryad.com/blog/percieved-age&#34;&gt;half your life by age 21&lt;/a&gt;&lt;/u&gt;. So the fraction of my life I&amp;rsquo;ve lived so far is $$\frac{\log 19}{\log 21} \times 0.5 = 48%. $$&lt;/p&gt;</description>
-    </item>
     <item>
       <title>1: Robot</title>
       <link>http://localhost:1313/posts/blog1/</link>
