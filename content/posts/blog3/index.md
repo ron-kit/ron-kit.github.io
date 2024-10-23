@@ -8,7 +8,7 @@ Last week I joined [UBC Orbit](https://www.ubcorbit.com), a design team that is 
 
 *<sub>excluding military bases, nuclear silos, alien colonies, etc.</sub> 
 
-I'll be making PCBs for the OBC, altough I originally applied to the AOC to develop the RTC. This team really likes acronyms and in time I will learn dozens more.
+I am making PCBs (printed circuit boards) for the OBC (on board computer). OBC is a very small ~~subteam~~ subsystem as they're calling it now; I am the most junior among them but that means I get to learn the most. 
 
 ## School
 
@@ -16,6 +16,6 @@ First month of school went alright. Classes are a very low priority for me as mo
 
 ### In the spirit of fairness...
 
-I feel that it is inaccurate, dishonest even, to write these entries ahead of the date marked in the title in order to preserve the appearance of an active blog, yet that is exactly what I am doing now. What can I say, it was a rough start to the year, and new habits take months to form. After this one I won't do it anymore. I am getting into the swing of things and thus will be setting aside an hour every weekend to cook these up. 
+I think that it is bad form to write these entries ahead of the date marked in the title in order to preserve the appearance of an active blog, yet that is exactly what I am doing now. What can I say, it was a rough start to the year, and new habits take months to form. After this one I won't do it anymore. I am getting into the swing of things and thus will be setting aside an hour every weekend to cook these up. 
 
-This sincerity almost feels wasted on an empty audience since it seems unlikely anyone but me would read these. If you are not me, hello and thanks. After some thought I decided I can't stand the idea of a "project portfolio" reducing my existence to insipid time sinks that only serve to amplify the prostration before employers, plus my instagram sufficiently encapsulates all the accomplishments I am proud of. So future posts will mostly be a personal outlet and practice to develop the clarity of my writing. 
+[//]: # (This sincerity almost feels wasted on an empty audience since it seems unlikely anyone but me would read these. If you are not me, hello and thanks. After some thought I decided I can't stand the idea of a "project portfolio" reducing my existence to insipid time sinks that only serve to amplify the prostration before employers, plus my instagram sufficiently encapsulates all the accomplishments I am proud of. So future posts will mostly be a personal outlet and practice to develop the clarity of my writing. )

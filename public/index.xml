@@ -6,14 +6,21 @@
     <description>Recent content on Ron&#39;s Engineering Journal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Oct 2024 10:59:58 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 21:30:20 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4: Many Events</title>
+      <link>http://localhost:1313/posts/blog4/</link>
+      <pubDate>Tue, 22 Oct 2024 21:30:20 -0700</pubDate>
+      <guid>http://localhost:1313/posts/blog4/</guid>
+      <description>&lt;div style=&#34;text-align: center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;images/october.png&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Two midterms and three events this week. I am becoming a fizzer whether I like it or not.&lt;/p&gt;&#xA;&lt;h3 id=&#34;thursday&#34;&gt;Thursday&lt;/h3&gt;&#xA;&lt;p&gt;In the morning I had my class 5 exam which I had booked months before. I got barely any sleep overnight but somehow passed by 1 point!&lt;/p&gt;&#xA;&lt;p&gt;I then drove to school to catch a mech lecture and my group&amp;rsquo;s lab, where we assembled some hydraulic circuits. I was convinced by the hydro prefix that the fluid would be water, but to my amusement and horror it was oil, and it went everywhere. Horror because I was dressed up for the job fair and any oil stain on my nice shirt would be generational aura debt. Thankfully I was spared from this embarrassment, and although I did end up getting another stain from food, it was hidden by the generously provided nametags.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>3: Joining Orbit</title>
       <link>http://localhost:1313/posts/blog3/</link>
       <pubDate>Sat, 05 Oct 2024 10:59:58 -0700</pubDate>
       <guid>http://localhost:1313/posts/blog3/</guid>
-      <description>&lt;h2 id=&#34;updates&#34;&gt;Updates&lt;/h2&gt;&#xA;&lt;p&gt;Last week I joined &lt;a href=&#34;https://www.ubcorbit.com&#34;&gt;UBC Orbit&lt;/a&gt;, a design team that is working on ALEASAT, a satellite equipped with radio and camera capabilities that can take and send pictures of any* location on earth.&lt;/p&gt;&#xA;&lt;p&gt;*&lt;sub&gt;excluding military bases, nuclear silos, alien colonies, etc.&lt;/sub&gt;&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;ll be making PCBs for the OBC, altough I originally applied to the AOC to develop the RTC. This team really likes acronyms and in time I will learn dozens more.&lt;/p&gt;</description>
+      <description>&lt;h2 id=&#34;updates&#34;&gt;Updates&lt;/h2&gt;&#xA;&lt;p&gt;Last week I joined &lt;a href=&#34;https://www.ubcorbit.com&#34;&gt;UBC Orbit&lt;/a&gt;, a design team that is working on ALEASAT, a satellite equipped with radio and camera capabilities that can take and send pictures of any* location on earth.&lt;/p&gt;&#xA;&lt;p&gt;*&lt;sub&gt;excluding military bases, nuclear silos, alien colonies, etc.&lt;/sub&gt;&lt;/p&gt;&#xA;&lt;p&gt;I am making PCBs (printed circuit boards) for the OBC (on board computer). OBC is a very small &lt;del&gt;subteam&lt;/del&gt; subsystem as they&amp;rsquo;re calling it now; I am the most junior among them but that means I get to learn the most.&lt;/p&gt;</description>
     </item>
     <item>
       <title>2: Starting Third Year</title>

@@ -6,8 +6,15 @@
     <description>Recent content in Posts on Ron&#39;s Engineering Journal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Sat, 05 Oct 2024 10:59:58 -0700</lastBuildDate>
+    <lastBuildDate>Tue, 22 Oct 2024 21:30:20 -0700</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>4: EGBC</title>
+      <link>http://localhost:1313/posts/blog4/</link>
+      <pubDate>Tue, 22 Oct 2024 21:30:20 -0700</pubDate>
+      <guid>http://localhost:1313/posts/blog4/</guid>
+      <description>&lt;p&gt;Friday&lt;/p&gt;</description>
+    </item>
     <item>
       <title>3: Joining Orbit</title>
       <link>http://localhost:1313/posts/blog3/</link>
