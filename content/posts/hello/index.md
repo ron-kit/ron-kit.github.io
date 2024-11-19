@@ -13,6 +13,7 @@ I will update this blog biweekly with chronicles of my escapades as well as thos
 Thanks to  [Steven Chen](https://shengw3n.github.io/) for inspiring me to start this and helping set it up.
 
 My other stuff can be found on my [github](https://github.com/ron-kit/) or [gitlab](https://gitlab.com/ron-kit/). I prefer the latter as it isn't microsoft affiliated, but it is trickier to use, as it couldn't deploy this site no matter what I tried. Eventually I'd like to move there.
+
 ---
 
 Below I'll test various Hugo and markdown features.

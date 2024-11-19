@@ -3,7 +3,7 @@ title = '1: Robot'
 date = 2024-09-07T23:15:10-07:00
 +++
 
-Hello and welcome to the first real content of my blog. This inaugural post will (briefly) document the assembly of my team's robots for the ENPH253 course.
+ Here is the first real content of my blog. This inaugural post will (briefly) document the assembly of my team's robots for the ENPH253 course.
 
 Our challenge this year was unlike any previous one: we had to build not one, but two fully autonomous robots that could cook, assemble, and serve 3d printed food. There were a variety of recipes, ranging from simple salads to deluxe cheeseburgers. 
 

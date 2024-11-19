@@ -8,7 +8,7 @@ Last week I joined [UBC Orbit](https://www.ubcorbit.com), a design team that is 
 
 *<sub>excluding military bases, nuclear silos, alien colonies, etc.</sub> 
 
-I am making PCBs (printed circuit boards) for the OBC (on board computer). OBC is a very small ~~subteam~~ subsystem as they're calling it now; I am the most junior among them but that means I get to learn the most. 
+I am making PCBs (printed circuit boards) for the OBC (on board computer). OBC is a very small subteam, and I am the most junior among them, but that just means I get to learn the most. 
 
 ## School
 

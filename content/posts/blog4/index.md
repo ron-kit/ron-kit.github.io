@@ -1,16 +1,17 @@
 +++
 title = '4: Many Events'
 date = 2024-10-22T21:30:20-07:00
-draft = true
 +++
 
 {{<image src="images/october.png">}}
 
-Two midterms and three events this week. I am becoming a fizzer whether I like it or not.
+I had two midterms and three events this week. I am becoming a true fizzer.
 
 ### Thursday
 
 In the morning I had my class 5 exam which I had booked months before. I got barely any sleep overnight but somehow passed by 1 point!
+
+{{<image src="images/pass.png">}}
 
 I then drove to school to catch a mech lecture and my group's lab, where we assembled some hydraulic circuits. I was convinced by the hydro prefix that the fluid would be water, but to my amusement and horror it was oil, and it went everywhere. Horror because I was dressed up for the job fair and any oil stain on my nice shirt would be generational aura debt. Thankfully I was spared from this embarrassment, and although I did end up getting another stain from food, it was hidden by the generously provided nametags.
 
@@ -23,11 +24,12 @@ The EUS was also giving out free food from Breka, and in a moment of weakness I 
 There is elegance in the simplicity of these tips. I've been implementing everything since encountering them and my interpersonal relationships have definitely improved a little.  
 
 On the way to the bus loop I saw some raccoons in a tree. It wasn't even that late (7-8 pm) but the sun had set and the campus felt completely deserted, aside from these guys.
+
 {{<video src="videos/raccoon.mp4">}} 
 
 ### Friday
 
-Back when Engineers and Geoscientists BC gave me the entrance scholarship in first year I was very grateful and signed up for an account to establish myself as an engineer and geoscientist BC, but thought that was it. A few weeks ago I was surprised to see an email from them inviting me to an event for scholarship winners. I accepted without a second thought.
+Back when Engineers and Geoscientists BC gave me the entrance scholarship in first year I was very grateful and signed up for an account to establish myself as an engineer and geoscientist BC, and thought that was it. A few weeks ago I was proven wrong when an email from them came in inviting me to an event for scholarship winners. I accepted without a second thought.
 
 The meeting was at Steamworks, where I had never been before. I entered with my friend and we were led in through a colossal labyrinth until we arrived at the big special doors at the big special room. 
 
