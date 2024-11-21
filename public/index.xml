@@ -6,14 +6,21 @@
     <description>Recent content on Ron&#39;s Engineering Journal</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Oct 2024 21:30:20 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 20 Nov 2024 21:36:14 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5: Hiatus</title>
+      <link>http://localhost:1313/posts/blog5/</link>
+      <pubDate>Wed, 20 Nov 2024 21:36:14 -0800</pubDate>
+      <guid>http://localhost:1313/posts/blog5/</guid>
+      <description>&lt;p&gt;Weekly updates have turned out to be difficult as well as unnecessary. Events seem to come in clusters; to paraphrase Lenin (without endorsement), there are months where nothing happens, and there are weeks where months happen. This month was the former: mostly midterms, although with one exception.&lt;/p&gt;&#xA;&lt;h2 id=&#34;halloweek&#34;&gt;Halloweek&lt;/h2&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;images/halloween.png&#34; style=&#34;width: 100%; height: auto;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;The last week of October was extraordinarily busy, lots of gigantic assignments and little time to finish them all. I ended up missing one, but did it the following day for practice.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>4: Many Events</title>
       <link>http://localhost:1313/posts/blog4/</link>
       <pubDate>Tue, 22 Oct 2024 21:30:20 -0700</pubDate>
       <guid>http://localhost:1313/posts/blog4/</guid>
-      <description>&lt;div style=&#34;text-align: center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;images/october.png&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;I had two midterms and three events this week. I am becoming a true fizzer.&lt;/p&gt;&#xA;&lt;h3 id=&#34;thursday&#34;&gt;Thursday&lt;/h3&gt;&#xA;&lt;p&gt;In the morning I had my class 5 exam which I had booked months before. I got barely any sleep overnight but somehow passed by 1 point!&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;images/pass.png&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;I then drove to school to catch a mech lecture and my group&amp;rsquo;s lab, where we assembled some hydraulic circuits. I was convinced by the hydro prefix that the fluid would be water, but to my amusement and horror it was oil, and it went everywhere. Horror because I was dressed up for the job fair and any oil stain on my nice shirt would be generational aura debt. Thankfully I was spared from this embarrassment, and although I did end up getting another stain from food, it was hidden by the generously provided nametags.&lt;/p&gt;</description>
+      <description>&lt;div style=&#34;text-align: center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;images/october.png&#34; style=&#34;width: 100%; height: auto;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;I had two midterms and three events this week. I am becoming a true fizzer.&lt;/p&gt;&#xA;&lt;h3 id=&#34;thursday&#34;&gt;Thursday&lt;/h3&gt;&#xA;&lt;p&gt;In the morning I had my class 5 exam which I had booked months before. I got barely any sleep overnight but somehow passed by 1 point!&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;images/pass.png&#34; style=&#34;width: 100%; height: auto;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;I then drove to school to catch a mech lecture and my group&amp;rsquo;s lab, where we assembled some hydraulic circuits. I was convinced by the hydro prefix that the fluid would be water, but to my amusement and horror it was oil, and it went everywhere. Horror because I was dressed up for the job fair and any oil stain on my nice shirt would be generational aura debt. Thankfully I was spared from this embarrassment, and although I did end up getting another stain from food, it was hidden by the generously provided nametags.&lt;/p&gt;</description>
     </item>
     <item>
       <title>3: Joining Orbit</title>
@@ -34,7 +41,7 @@
       <link>http://localhost:1313/posts/blog1/</link>
       <pubDate>Sat, 07 Sep 2024 23:15:10 -0700</pubDate>
       <guid>http://localhost:1313/posts/blog1/</guid>
-      <description>&lt;p&gt;Here is the first real content of my blog. This inaugural post will (briefly) document the assembly of my team&amp;rsquo;s robots for the ENPH253 course.&lt;/p&gt;&#xA;&lt;p&gt;Our challenge this year was unlike any previous one: we had to build not one, but two fully autonomous robots that could cook, assemble, and serve 3d printed food. There were a variety of recipes, ranging from simple salads to deluxe cheeseburgers.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;images/surface.png&#34; style=&#34;max-width: 100%; height: auto;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;i&gt;Fig. 1. The competition surface.&lt;/i&gt;&lt;/p&gt;</description>
+      <description>&lt;p&gt;Here is the first real content of my blog. This inaugural post will (briefly) document the assembly of my team&amp;rsquo;s robots for the ENPH253 course.&lt;/p&gt;&#xA;&lt;p&gt;Our challenge this year was unlike any previous one: we had to build not one, but two fully autonomous robots that could cook, assemble, and serve 3d printed food. There were a variety of recipes, ranging from simple salads to deluxe cheeseburgers.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;images/surface.png&#34; style=&#34;width: 100%; height: auto;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;i&gt;Fig. 1. The competition surface.&lt;/i&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>0. Hello</title>
