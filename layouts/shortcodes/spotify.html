@@ -1,0 +1,17 @@
+<!--
+Parameters:
+    type - (Required) album / track / playlist / artist
+    id - (Required) Target ID
+    width - (Optional) width
+    height - (Optional) height
+-->
+
+<iframe style="border-radius:12px" 
+    src="https://open.spotify.com/embed/{{ .Get "type" }}/{{ .Get "id" }}?utm_source=generator"
+    width="{{ default "100%" (.Get "width") }}" 
+    height="{{ default "420" (.Get "height") }}" 
+    frameBorder="0" 
+    allowfullscreen="" 
+    allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture" 
+    loading="lazy">
+</iframe>
