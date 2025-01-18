@@ -9,9 +9,23 @@
     <lastBuildDate>Fri, 17 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/photos/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>Eagle</title>
+      <link>http://localhost:1313/photos/eagle/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/eagle/</guid>
+      <description>Harpy Eagle by Jang Yong Ik</description>
+    </item>
+    <item>
+      <title>Frog</title>
+      <link>http://localhost:1313/photos/frog/</link>
+      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/photos/frog/</guid>
+      <description>Tree Frog by Satoshi Kamita</description>
+    </item>
+    <item>
       <title>ENPH353</title>
       <link>http://localhost:1313/photos/enph353/</link>
-      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/photos/enph353/</guid>
       <description>WIP</description>
     </item>
