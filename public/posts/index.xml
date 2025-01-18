@@ -1,47 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Ron&#39;s Engineering Journal</title>
-    <link>http://localhost:63529/posts/</link>
-    <description>Recent content in Posts on Ron&#39;s Engineering Journal</description>
-    <generator>Hugo</generator>
+    <title>Posts on Ron Kitainik: Blog &amp; Portfolio</title>
+    <link>http://localhost:1313/posts/</link>
+    <description>Recent content in Posts on Ron Kitainik: Blog &amp; Portfolio</description>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Tue, 22 Oct 2024 21:30:20 -0700</lastBuildDate>
-    <atom:link href="http://localhost:63529/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 20 Nov 2024 21:36:14 -0800</lastBuildDate>
+    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>5: Hiatus</title>
+      <link>http://localhost:1313/posts/blog5/</link>
+      <pubDate>Wed, 20 Nov 2024 21:36:14 -0800</pubDate>
+      <guid>http://localhost:1313/posts/blog5/</guid>
+      <description>Weekly updates have turned out to be difficult as well as unnecessary. Events seem to come in clusters; to paraphrase Lenin (without endorsement), there are months where nothing happens, and there are weeks where months happen. This month was the former: mostly midterms, although with one exception.&#xA;Halloweek The last week of October was extraordinarily busy, lots of gigantic assignments and little time to finish them all. I ended up missing one, but did it the following day for practice.</description>
+    </item>
     <item>
       <title>4: Many Events</title>
-      <link>http://localhost:63529/posts/blog4/</link>
+      <link>http://localhost:1313/posts/blog4/</link>
       <pubDate>Tue, 22 Oct 2024 21:30:20 -0700</pubDate>
-      <guid>http://localhost:63529/posts/blog4/</guid>
-      <description>&lt;div style=&#34;text-align: center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;images/october.png&#34; style=&#34;width: 100%; height: auto;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;I had two midterms and three events this week. I am becoming a true fizzer.&lt;/p&gt;&#xA;&lt;h3 id=&#34;thursday&#34;&gt;Thursday&lt;/h3&gt;&#xA;&lt;p&gt;In the morning I had my class 5 exam which I had booked months before. I got barely any sleep overnight but somehow passed by 1 point!&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;images/pass.png&#34; style=&#34;width: 100%; height: auto;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xD;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;I then drove to school to catch a mech lecture and my group&amp;rsquo;s lab, where we assembled some hydraulic circuits. I was convinced by the hydro prefix that the fluid would be water, but to my amusement and horror it was oil, and it went everywhere. Horror because I was dressed up for the job fair and any oil stain on my nice shirt would be generational aura debt. Thankfully I was spared from this embarrassment, and although I did end up getting another stain from food, it was hidden by the generously provided nametags.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/blog4/</guid>
+      <description>I had two midterms and three events this week. I am becoming a true fizzer.&#xA;Thursday In the morning I had my class 5 exam which I had booked months before. I got barely any sleep overnight but somehow passed by 1 point!&#xA;I then drove to school to catch a mech lecture and my group&amp;rsquo;s lab, where we assembled some hydraulic circuits. I was convinced by the hydro prefix that the fluid would be water, but to my amusement and horror it was oil, and it went everywhere.</description>
     </item>
     <item>
       <title>3: Joining Orbit</title>
-      <link>http://localhost:63529/posts/blog3/</link>
+      <link>http://localhost:1313/posts/blog3/</link>
       <pubDate>Sat, 05 Oct 2024 10:59:58 -0700</pubDate>
-      <guid>http://localhost:63529/posts/blog3/</guid>
-      <description>&lt;h2 id=&#34;updates&#34;&gt;Updates&lt;/h2&gt;&#xA;&lt;p&gt;Last week I joined &lt;a href=&#34;https://www.ubcorbit.com&#34;&gt;UBC Orbit&lt;/a&gt;, a design team that is working on ALEASAT, a satellite equipped with radio and camera capabilities that can take and send pictures of any* location on earth.&lt;/p&gt;&#xA;&lt;p&gt;*&lt;sub&gt;excluding military bases, nuclear silos, alien colonies, etc.&lt;/sub&gt;&lt;/p&gt;&#xA;&lt;p&gt;I am making PCBs (printed circuit boards) for the OBC (on board computer). OBC is a very small subteam, and I am the most junior among them, but that just means I get to learn the most.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/blog3/</guid>
+      <description>Updates Last week I joined UBC Orbit, a design team that is working on ALEASAT, a satellite equipped with radio and camera capabilities that can take and send pictures of any* location on earth.&#xA;*excluding military bases, nuclear silos, alien colonies, etc.&#xA;I am making PCBs (printed circuit boards) for the OBC (on board computer). OBC is a very small subteam, and I am the most junior among them, but that just means I get to learn the most.</description>
     </item>
     <item>
       <title>2: Starting Third Year</title>
-      <link>http://localhost:63529/posts/blog2/</link>
+      <link>http://localhost:1313/posts/blog2/</link>
       <pubDate>Sat, 21 Sep 2024 22:36:59 -0700</pubDate>
-      <guid>http://localhost:63529/posts/blog2/</guid>
-      <description>&lt;p&gt;I am now a 3rd year student. For anybody else this would indicate the halfway point of their university experience, but in my program I&amp;rsquo;ll be lucky if it&amp;rsquo;s one third.&lt;/p&gt;&#xA;&lt;p&gt;Still, time flies. It feels like just yesterday I was building cardboard chairs and claws, and just a day before that I was folding origami in my high school science class. But this makes sense: due to logarithmic time perception it feels like we&amp;rsquo;ve lived &lt;u&gt;&lt;a href=&#34;https://suryad.com/blog/percieved-age&#34;&gt;half our life by age 21&lt;/a&gt;&lt;/u&gt;.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/blog2/</guid>
+      <description>I am now a 3rd year student. For anybody else this would indicate the halfway point of their university experience, but in my program I&amp;rsquo;ll be lucky if it&amp;rsquo;s one third.&#xA;Still, time flies. It feels like just yesterday I was building cardboard chairs and claws, and just a day before that I was folding origami in my high school science class. But this makes sense: due to logarithmic time perception it feels like we&amp;rsquo;ve lived half our life by age 21.</description>
     </item>
     <item>
       <title>1: Robot</title>
-      <link>http://localhost:63529/posts/blog1/</link>
+      <link>http://localhost:1313/posts/blog1/</link>
       <pubDate>Sat, 07 Sep 2024 23:15:10 -0700</pubDate>
-      <guid>http://localhost:63529/posts/blog1/</guid>
-      <description>&lt;p&gt;Here is the first real content of my blog. This inaugural post will (briefly) document the assembly of my team&amp;rsquo;s robots for the ENPH253 course.&lt;/p&gt;&#xA;&lt;p&gt;Our challenge this year was unlike any previous one: we had to build not one, but two fully autonomous robots that could cook, assemble, and serve 3d printed food. There were a variety of recipes, ranging from simple salads to deluxe cheeseburgers.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xD;&#xA;    &lt;img src=&#34;images/surface.png&#34; style=&#34;width: 100%; height: auto;&#34;&gt;&#xD;&#xA;    &lt;p&gt;&lt;i&gt;Fig. 1. The competition surface.&lt;/i&gt;&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/blog1/</guid>
+      <description>Here is the first real content of my blog. This inaugural post will (briefly) document the assembly of my team&amp;rsquo;s robots for the ENPH253 course.&#xA;Our challenge this year was unlike any previous one: we had to build not one, but two fully autonomous robots that could cook, assemble, and serve 3d printed food. There were a variety of recipes, ranging from simple salads to deluxe cheeseburgers.&#xA;Fig. 1. The competition surface.</description>
     </item>
     <item>
       <title>0. Hello</title>
-      <link>http://localhost:63529/posts/hello/</link>
+      <link>http://localhost:1313/posts/hello/</link>
       <pubDate>Sat, 31 Aug 2024 22:38:04 -0700</pubDate>
-      <guid>http://localhost:63529/posts/hello/</guid>
-      <description>&lt;h1 id=&#34;hello&#34;&gt;Hello&lt;/h1&gt;&#xA;&lt;p&gt;Welcome to my blog. Here is my first post, at least the first that made it out of local testing and into deployment.&lt;/p&gt;&#xA;&lt;p&gt;I will update this blog biweekly with chronicles of my escapades as well as those less exciting things called projects.&lt;/p&gt;&#xA;&lt;p&gt;Thanks to  &lt;a href=&#34;https://shengw3n.github.io/&#34;&gt;Steven Chen&lt;/a&gt; for inspiring me to start this and helping set it up.&lt;/p&gt;&#xA;&lt;p&gt;My other stuff can be found on my &lt;a href=&#34;https://github.com/ron-kit/&#34;&gt;github&lt;/a&gt; or &lt;a href=&#34;https://gitlab.com/ron-kit/&#34;&gt;gitlab&lt;/a&gt;. I prefer the latter as it isn&amp;rsquo;t microsoft affiliated, but it is trickier to use, as it couldn&amp;rsquo;t deploy this site no matter what I tried. Eventually I&amp;rsquo;d like to move there.&lt;/p&gt;</description>
+      <guid>http://localhost:1313/posts/hello/</guid>
+      <description>Hello Welcome to my blog. Here is my first post, at least the first that made it out of local testing and into deployment.&#xA;I will update this blog biweekly with chronicles of my escapades as well as those less exciting things called projects.&#xA;Thanks to Steven Chen for inspiring me to start this and helping set it up.&#xA;My other stuff can be found on my github or gitlab. I prefer the latter as it isn&amp;rsquo;t microsoft affiliated, but it is trickier to use, as it couldn&amp;rsquo;t deploy this site no matter what I tried.</description>
     </item>
   </channel>
 </rss>
