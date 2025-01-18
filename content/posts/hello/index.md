@@ -1,7 +1,7 @@
 +++
 title = '0. Hello'
 date = 2024-08-31T22:38:04-07:00
-math = true
+katex = true
 +++
 
 # Hello
@@ -24,7 +24,7 @@ Below I'll test various Hugo and markdown features.
 
 ### Funny video
 
-{{<video src="/videos/fan.mp4">}}
+{{<video src="videos/fan.mp4">}}
 
 ### Text experiments
 
@@ -39,6 +39,6 @@ Hover over to see the <abbr title="Eat your vegetables">secret message </abbr>
 |**Up**|_Italic_|**Bold**|
 |**Down**|~~Strike~~|`Code`|
 
-$$u(r,z,t) = \sum_{n=1}^\infty \sum_{m=1}^\infty \sin \left( \frac{m\pi z}{h}\right)J_0 \left( \sqrt{\mu_n}r \right)e^{-\lambda_{mn}Dt}$$
+{{< katex >}} $$u(r,z,t) = \sum_{n=1}^\infty \sum_{m=1}^\infty \sin \left( \frac{m\pi z}{h}\right)J_0 \left( \sqrt{\mu_n}r \right)e^{-\lambda_{mn}Dt}$$ {{< /katex >}}
 
 {{<youtube "tZ2hQ_3FzQs">}}

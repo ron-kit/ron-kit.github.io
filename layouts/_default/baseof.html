@@ -27,6 +27,14 @@
     {{ template "_internal/google_analytics.html" . }}
 
     {{- partial "header.html" . -}}
+    
+    <!-- KATEX STARTS HERE -->
+    {{ $noop := .Content }}
+    {{ if or (.HasShortcode "katex") (.Page.Store.Get "hasKatex") }}
+      {{ partial "katex.html" }}
+    {{ end }}
+    <!-- KATEX ENDS HERE-->
+     
 </head>
 <body class="terminal">
     <div class="container">

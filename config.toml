@@ -22,6 +22,3 @@ theme = "hugo-theme-console"
   [[params.navlinks]]
   name = "photos/"
   url = "photos/"
-  
-[markup.goldmark.renderer]
-  unsafe = true
