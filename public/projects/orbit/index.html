@@ -3,7 +3,7 @@
 <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <title>Ron Kitainik: Blog &amp; Portfolio/projects/enph353/</title>
+    <title>Ron Kitainik: Blog &amp; Portfolio/projects/orbit/</title>
     
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="robots" content="all,follow">
@@ -21,31 +21,31 @@
 <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
 <link rel="manifest" href="/site.webmanifest">
-<meta property="og:title" content="Simulated Line Following Robot" />
+<meta property="og:title" content="Orbit" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/projects/enph353/" />
+<meta property="og:url" content="http://localhost:1313/projects/orbit/" />
 
 
   
-<meta property="og:image" content="http://localhost:1313/projects/enph353/edge%20detection_hu160f4576d68bbdd6bc22297bbaaacbb1_17789_400x0_resize_box_3.png">
+<meta property="og:image" content="http://localhost:1313/projects/orbit/aleasat_hu769df75425f23ca5871dd68730be044b_94336_400x0_resize_box_3.png">
 
-<meta property="article:published_time" content="2025-01-17T00:00:00+00:00" />
+<meta property="article:published_time" content="2025-01-23T00:00:00+00:00" />
 
 
 
 
 
 <meta name="twitter:card" content="summary_large_image"/>
-<meta name="twitter:image" content="http://localhost:1313/projects/enph353/edge%20detection_hu160f4576d68bbdd6bc22297bbaaacbb1_17789_400x0_resize_box_3.png">
+<meta name="twitter:image" content="http://localhost:1313/projects/orbit/aleasat_hu769df75425f23ca5871dd68730be044b_94336_400x0_resize_box_3.png">
 
 
 
-<meta name="twitter:title" content="Simulated Line Following Robot"/>
-<meta name="twitter:description" content="A virtual robot that detects targets and bypasses obstacles to compete in a race.
-Programmed in OpenCV and simulated in Gazebo.
-I have implemented line following from a video feed using HSV thresholding, and imported it into ROS Gazebo to allow the robot to follow any terrain file.
-Your browser does not support the video tag. Currently WIP."/>
+<meta name="twitter:title" content="Orbit"/>
+<meta name="twitter:description" content="As a member of UBC Orbit&rsquo;s OBC (On-Board Computer) subteam, I&rsquo;ve made various contributions and improvements to our satellite&rsquo;s electronics.
+Above is a custom FFC (Flat Flexible Cable) I designed to interface between the OBC (On-Board Computer) and COMMS subsystems.
+I had to take a number of factors into consideration for this design:
+The COMMS board processes and amplifies received RF signals, so I had to design this board with high frequency signals of about 1-2A in mind."/>
 
 
     
@@ -61,7 +61,7 @@ Your browser does not support the video tag. Currently WIP."/>
               
               
               <a href="http://localhost:1313/" class="no-style site-name">Ron Kitainik: Blog &amp; Portfolio</a>:~# 
-              <a href='http://localhost:1313/projects'>projects</a>/<a href='http://localhost:1313/projects/enph353'>enph353</a>/</div></header>
+              <a href='http://localhost:1313/projects'>projects</a>/<a href='http://localhost:1313/projects/orbit'>orbit</a>/</div></header>
           <nav class="terminal-menu">
             <ul vocab="https://schema.org/" typeof="BreadcrumbList">
                 
@@ -78,25 +78,32 @@ Your browser does not support the video tag. Currently WIP."/>
 
     <div class="container animated bounceIn fast" >
         
-<h1>Simulated Line Following Robot</h1>
+<h1>Orbit</h1>
 
 
     
     
         
-        <img src="/projects/enph353/edge%20detection_hu160f4576d68bbdd6bc22297bbaaacbb1_17789_1000x0_resize_box_3.png" alt="edge detection.png" class="img-responsive gallery-image">
+        <img src="/projects/orbit/aleasat_hu769df75425f23ca5871dd68730be044b_94336_1000x0_resize_box_3.png" alt="aleasat.png" class="img-responsive gallery-image">
     
 
 
-<p>A virtual robot that detects targets and bypasses obstacles to compete in a race.</p>
-<p>Programmed in OpenCV and simulated in Gazebo.</p>
-<p>I have implemented line following from a video feed using HSV thresholding, and imported it into ROS Gazebo to allow the robot to follow any terrain file.</p>
-<video width="100%" height="auto" controls>
-    <source src="tracked_video_feed.mov" type="video/mp4">
-    Your browser does not support the video tag.
-</video>
-
-<p>Currently WIP.</p>
+<p>As a member of UBC Orbit&rsquo;s OBC (On-Board Computer) subteam, I&rsquo;ve made various contributions and improvements to our satellite&rsquo;s electronics.</p>
+<div style="text-align: center">
+    <img src="ffc.png" style="width: 100%; height: auto;">
+    <p><i></i></p>
+</div>
+<p>Above is a custom FFC (Flat Flexible Cable) I designed to interface between the OBC (On-Board Computer) and COMMS subsystems.</p>
+<p>I had to take a number of factors into consideration for this design:</p>
+<ul>
+<li>The COMMS board processes and amplifies received RF signals, so I had to design this board with high frequency signals of about 1-2A in mind.</li>
+<li>Also, conditions in space, even in low orbit, are much more hostile than those on Earth, so the materials were also chosen carefully.</li>
+<li>Instead of the polyester that most COTS cables are made of, I used a polyimide coverlay to minimize degassing, and a gold surface finish for longevity.</li>
+</ul>
+<div style="text-align: center">
+    <img src="layerstack.png" style="width: 100%; height: auto;">
+    <p><i></i></p>
+</div>
 
 
 

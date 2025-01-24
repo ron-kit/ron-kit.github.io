@@ -6,8 +6,15 @@
     <description>Recent content on Ron Kitainik: Blog &amp; Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Fri, 17 Jan 2025 19:31:02 -0800</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jan 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Orbit</title>
+      <link>http://localhost:1313/projects/orbit/</link>
+      <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/orbit/</guid>
+      <description>As a member of UBC Orbit&amp;rsquo;s OBC (On-Board Computer) subteam, I&amp;rsquo;ve made various contributions and improvements to our satellite&amp;rsquo;s electronics.&#xA;Above is a custom FFC (Flat Flexible Cable) I designed to interface between the OBC (On-Board Computer) and COMMS subsystems.&#xA;I had to take a number of factors into consideration for this design:&#xA;The COMMS board processes and amplifies received RF signals, so I had to design this board with high frequency signals of about 1-2A in mind.</description>
+    </item>
     <item>
       <title>About Me</title>
       <link>http://localhost:1313/about/</link>
@@ -20,7 +27,7 @@
       <link>http://localhost:1313/projects/enph353/</link>
       <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/enph353/</guid>
-      <description>A virtual robot that detects targets and bypasses obstacles to compete in a race.&#xA;Programmed in OpenCV and simulated in Gazebo.&#xA;Currently WIP.</description>
+      <description>A virtual robot that detects targets and bypasses obstacles to compete in a race.&#xA;Programmed in OpenCV and simulated in Gazebo.&#xA;I have implemented line following from a video feed using HSV thresholding, and imported it into ROS Gazebo to allow the robot to follow any terrain file.&#xA;Your browser does not support the video tag. Currently WIP.</description>
     </item>
     <item>
       <title>5: Hiatus</title>
@@ -69,7 +76,7 @@
       <link>http://localhost:1313/projects/enph253/</link>
       <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/enph253/</guid>
-      <description>In summer of 2024 I collaborated with three other students to build a pair of fully automatic robots that served food on a custom designed course.</description>
+      <description>In summer of 2024 I collaborated with three other students to build a pair of fully automatic robots that served food in a kitchen-like course.&#xA;The environment included various signals and surfaces for our robots to follow.&#xA;I developed PCBs for the robot including a phototransistor reflectance sensor, a two-motor H-bridge, and a hardware signal debouncer, shown below.&#xA;I routed the schematic and developed this small, stylized board.&#xA;(The theme is because our team name was the Krusty Krab)</description>
     </item>
     <item>
       <title>Origami</title>
