@@ -1,7 +1,7 @@
 +++
 image = "edge detection.png"
 date = "2025-01-17"
-title = "Simulated Line Following Robot"
+title = "Simulated Self-Driving Robot"
 type = "gallery"
 +++
 

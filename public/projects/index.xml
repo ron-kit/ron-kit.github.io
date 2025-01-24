@@ -16,7 +16,7 @@
       <description>As a member of UBC Orbit&amp;rsquo;s OBC (On-Board Computer) subteam, I&amp;rsquo;ve made various contributions and improvements to our satellite&amp;rsquo;s electronics.&#xA;Above is a custom FFC (Flat Flexible Cable) I designed to interface between the OBC (On-Board Computer) and COMMS subsystems.&#xA;I had to take a number of factors into consideration for this design:&#xA;The COMMS board processes and amplifies received RF signals, so I had to design this board with high frequency signals of about 1-2A in mind.</description>
     </item>
     <item>
-      <title>Simulated Line Following Robot</title>
+      <title>Simulated Self-Driving Robot</title>
       <link>http://localhost:1313/projects/enph353/</link>
       <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/enph353/</guid>
