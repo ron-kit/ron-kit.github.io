@@ -4,12 +4,14 @@ title = "Ron Kitainik: Blog & Portfolio"
 theme = "hugo-theme-console"
 
 [params]
+  favicon = "img/favicon.ico"
+
   # Cutting off the page title to two chars for mobile (console-demo -> co)
   titleCutting = true
 
   # Set the animation style -- https://animate.style/
   # To disable animations, please remove or comment animationStyle parameter
-  animateStyle = "animated zoomIn fast" 
+  animateStyle = "animated bounceIn fast" 
 
   [[params.navlinks]]
   name = "about/"
@@ -20,5 +22,5 @@ theme = "hugo-theme-console"
   url = "posts/"
   
   [[params.navlinks]]
-  name = "photos/"
-  url = "photos/"
+  name = "projects/"
+  url = "projects/"

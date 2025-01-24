@@ -16,25 +16,11 @@
       <description>About me: I am rom.</description>
     </item>
     <item>
-      <title>Eagle</title>
-      <link>http://localhost:1313/photos/eagle/</link>
+      <title>Simulated Line Following Robot</title>
+      <link>http://localhost:1313/projects/enph353/</link>
       <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/photos/eagle/</guid>
-      <description>Harpy Eagle by Jang Yong Ik</description>
-    </item>
-    <item>
-      <title>Frog</title>
-      <link>http://localhost:1313/photos/frog/</link>
-      <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/photos/frog/</guid>
-      <description>Tree Frog by Satoshi Kamita</description>
-    </item>
-    <item>
-      <title>ENPH353</title>
-      <link>http://localhost:1313/photos/enph353/</link>
-      <pubDate>Tue, 14 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/photos/enph353/</guid>
-      <description>WIP</description>
+      <guid>http://localhost:1313/projects/enph353/</guid>
+      <description>A virtual robot that detects targets and bypasses obstacles to compete in a race.&#xA;Programmed in OpenCV and simulated in Gazebo.&#xA;Currently WIP.</description>
     </item>
     <item>
       <title>5: Hiatus</title>
@@ -77,6 +63,20 @@
       <pubDate>Sat, 31 Aug 2024 22:38:04 -0700</pubDate>
       <guid>http://localhost:1313/posts/hello/</guid>
       <description>Hello Welcome to my blog. Here is my first post, at least the first that made it out of local testing and into deployment.&#xA;I will update this blog biweekly with chronicles of my escapades as well as those less exciting things called projects.&#xA;Thanks to Steven Chen for inspiring me to start this and helping set it up.&#xA;My other stuff can be found on my github or gitlab. I prefer the latter as it isn&amp;rsquo;t microsoft affiliated, but it is trickier to use, as it couldn&amp;rsquo;t deploy this site no matter what I tried.</description>
+    </item>
+    <item>
+      <title>Autonomous Cooking Robots</title>
+      <link>http://localhost:1313/projects/enph253/</link>
+      <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/enph253/</guid>
+      <description>In summer of 2024 I collaborated with three other students to build a pair of fully automatic robots that served food on a custom designed course.</description>
+    </item>
+    <item>
+      <title>Origami</title>
+      <link>http://localhost:1313/projects/origami/</link>
+      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/projects/origami/</guid>
+      <description>When I&amp;rsquo;m not learning or exercising I am doing origami. Here are some of my best models.&#xA;Above is a Tree Frog by Satoshi Kamiya&#xA;Harpy Eagle by Jang Yong Ik</description>
     </item>
   </channel>
 </rss>

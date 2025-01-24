@@ -10,7 +10,7 @@ I am a 3rd year engineering physics student at UBC. This is my portfolio website
 <h1>Latest projects</h1>
 
 <div class="image-grid">
-{{ with .Site.GetPage "/photos" }}
+{{ with .Site.GetPage "/projects" }}
     {{ range first 3 (sort .Data.Pages "Date" "desc")}}
         <a href="{{ .Permalink }}" title="{{ .Title }}">
         {{ $image := .Page.Resources.GetMatch .Params.image }}
