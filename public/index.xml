@@ -16,18 +16,18 @@
       <description>As a member of UBC Orbit&amp;rsquo;s OBC (On-Board Computer) subteam, I&amp;rsquo;ve made various contributions and improvements to our satellite&amp;rsquo;s electronics.&#xA;Above is a custom FFC (Flat Flexible Cable) I designed to interface between the OBC (On-Board Computer) and COMMS subsystems.&#xA;I had to take a number of factors into consideration for this design:&#xA;The COMMS board processes and amplifies received RF signals, so I had to design this board with high frequency signals of about 1-2A in mind.</description>
     </item>
     <item>
-      <title>About Me</title>
-      <link>http://localhost:1313/about/</link>
-      <pubDate>Fri, 17 Jan 2025 19:31:02 -0800</pubDate>
-      <guid>http://localhost:1313/about/</guid>
-      <description>About me: I am rom.</description>
-    </item>
-    <item>
       <title>Simulated Self-Driving Robot</title>
       <link>http://localhost:1313/projects/enph353/</link>
       <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/enph353/</guid>
       <description>A virtual robot that detects targets and bypasses obstacles to compete in a race.&#xA;Programmed in OpenCV and simulated in Gazebo.&#xA;I have implemented line following from a video feed using HSV thresholding, and imported it into ROS Gazebo to allow the robot to follow any terrain file.&#xA;Your browser does not support the video tag. Currently WIP.</description>
+    </item>
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Wed, 01 Jan 2025 19:31:02 -0800</pubDate>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Hello! I&amp;rsquo;m Ron, a 3rd year Eng Phys student at UBC.</description>
     </item>
     <item>
       <title>5: Hiatus</title>
