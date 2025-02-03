@@ -6,8 +6,15 @@
     <description>Recent content on Ron Kitainik: Blog &amp; Portfolio</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jan 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 02 Feb 2025 23:53:46 -0800</lastBuildDate>
     <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>6: New Year</title>
+      <link>http://localhost:1313/posts/blog6/</link>
+      <pubDate>Sun, 02 Feb 2025 23:53:46 -0800</pubDate>
+      <guid>http://localhost:1313/posts/blog6/</guid>
+      <description>Time passes quickly. Macroscopically, we are somehow already a quarter of the way through the century; microscopically, it has been nearly 2 months since my last biweekly blog. Oops.&#xA;I&amp;rsquo;ll still cover what I&amp;rsquo;ve been up to but with the intent of transitioning the writing style to a continuous log of my learning experience rather than a narrative flow. Personal journals are definitely more suited for 2013 wordpress sites but I just like writing I guess.</description>
+    </item>
     <item>
       <title>FFC for UBC Orbit</title>
       <link>http://localhost:1313/projects/orbit/</link>
