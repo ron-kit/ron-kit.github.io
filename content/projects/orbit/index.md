@@ -1,7 +1,7 @@
 +++
 image = "aleasat.png"
 date = "2025-01-23"
-title = "Orbit"
+title = "FFC for UBC Orbit"
 type = "gallery"
 +++
 
