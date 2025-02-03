@@ -3,7 +3,7 @@ title = '5: Hiatus'
 date = 2024-11-20T21:36:14-08:00
 +++
 
-Weekly updates have turned out to be difficult as well as unnecessary. Events seem to come in clusters; to paraphrase Lenin (without endorsement), there are months where nothing happens, and there are weeks where months happen. This month was the former: mostly midterms, although with one exception.
+Weekly updates have turned out to be difficult as well as unnecessary. Events seem to come in clusters; to paraphrase a well-known quote, there are months where nothing happens, and there are weeks where months happen. This month was the former: mostly midterms, although with one exception.
  
 ## Halloweek
 

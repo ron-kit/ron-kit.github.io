@@ -5,7 +5,7 @@ date = 2024-10-22T21:30:20-07:00
 
 {{<image src="images/october.png">}}
 
-I had two midterms and three events this week. I am becoming a true fizzer.
+I had two midterms and three events this week, very hectic.
 
 ### Thursday
 
