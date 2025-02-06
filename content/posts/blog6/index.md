@@ -46,7 +46,7 @@ Ok a couple more things before I conclude the last overly personal entry to my w
 
 Firstly I am starting work on a very large and ambitious project that addresses an issue which I and virtually all of my peers have encountered and complained about. So far it's just concepts of a plan, but if you're here you probably know me well enough to already have an idea of what it's about, so please reach out to contribute or find out more. 
 
-Secondly I doubt that the rate of progress on this and other projects will warrant rregular, especially as I am already logging the biggest one on Jupyter, so it will be on a need-be basis.
+Secondly I doubt that the rate of progress on this and other projects will warrant regular updates, especially as I am already logging the biggest one on Jupyter, so it will be on a need-be basis.
 
 Finally here's my favorite albums of all time for anyone with a similarly adventurous music taste to mine.
 
@@ -54,9 +54,5 @@ Finally here's my favorite albums of all time for anyone with a similarly advent
 {{<tidal type="album" id="255406792">}}
 
 {{<tidal type="album" id="333225888">}}
-
-{{<tidal type="album" id="263471719">}}
-
-{{<tidal type="album" id="45278808">}}
 
 {{<tidal type="album" id="308810532">}}
