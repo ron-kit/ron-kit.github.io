@@ -27,7 +27,7 @@
       <link>http://localhost:1313/projects/enph353/</link>
       <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/projects/enph353/</guid>
-      <description>A virtual robot that detects targets and bypasses obstacles to compete in a race.&#xA;Programmed in OpenCV and simulated in Gazebo.&#xA;I have implemented line following from a video feed using HSV thresholding, and imported it into ROS Gazebo to allow the robot to follow any terrain file.&#xA;Your browser does not support the video tag. Currently WIP.</description>
+      <description>A virtual robot that detects features and navigates terrain to compete in a race. Programmed with OpenCV, connected with ROS, and simulated in Gazebo.&#xA;Competition Map Development Log I started with a very basic prebuilt robot, not much more than a box on wheels, and developed a system to detect the road. The standard approach to this is to apply a Gaussian blur followed by a binary threshold, but I opted for HSV thresholding instead (seen in the cover image), which procured a very strong boundary between road and ground.</description>
     </item>
     <item>
       <title>About Me</title>

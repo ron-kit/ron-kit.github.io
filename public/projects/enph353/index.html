@@ -42,10 +42,8 @@
 
 
 <meta name="twitter:title" content="Simulated Self-Driving Robot"/>
-<meta name="twitter:description" content="A virtual robot that detects targets and bypasses obstacles to compete in a race.
-Programmed in OpenCV and simulated in Gazebo.
-I have implemented line following from a video feed using HSV thresholding, and imported it into ROS Gazebo to allow the robot to follow any terrain file.
-Your browser does not support the video tag. Currently WIP."/>
+<meta name="twitter:description" content="A virtual robot that detects features and navigates terrain to compete in a race. Programmed with OpenCV, connected with ROS, and simulated in Gazebo.
+Competition Map Development Log I started with a very basic prebuilt robot, not much more than a box on wheels, and developed a system to detect the road. The standard approach to this is to apply a Gaussian blur followed by a binary threshold, but I opted for HSV thresholding instead (seen in the cover image), which procured a very strong boundary between road and ground."/>
 
 
     
@@ -88,15 +86,62 @@ Your browser does not support the video tag. Currently WIP."/>
     
 
 
-<p>A virtual robot that detects targets and bypasses obstacles to compete in a race.</p>
-<p>Programmed in OpenCV and simulated in Gazebo.</p>
-<p>I have implemented line following from a video feed using HSV thresholding, and imported it into ROS Gazebo to allow the robot to follow any terrain file.</p>
+<p>A virtual robot that detects features and navigates terrain to compete in a race. Programmed with OpenCV, connected with ROS, and simulated in Gazebo.</p>
+<hr>
+<h2 id="competition-map">Competition Map</h2>
+<div style="text-align: center">
+    <img src="353map.gif" width="100%" height="auto">
+    <p><i></i></p>
+</div>
+<h2 id="development-log">Development Log</h2>
+<p>I started with a very basic prebuilt robot, not much more than a box on wheels, and developed a system to detect the road.
+The standard approach to this is to apply a Gaussian blur followed by a binary threshold, but I opted for HSV thresholding instead (seen in the cover image), which procured a very strong boundary between road and ground.</p>
 <video width="100%" height="auto" controls>
     <source src="tracked_video_feed.mov" type="video/mp4">
     Your browser does not support the video tag.
 </video>
 
-<p>Currently WIP.</p>
+<p>Using a pregenerated video of the robot driving a lap, I added realtime frame processing to locate the the road.
+By taking the centroid of the road segment detected in the bottom quarter of each frame, my algorithm was able to very accurately place a circle on the middle of the road.</p>
+<p>This would be useful for navigation later, but for now I pivoted to another task: keypoint detection with SIFT.</p>
+<hr>
+<div style="text-align: center">
+    <img src="keypoints.png" width="100%" height="auto">
+    <p><i></i></p>
+</div>
+<p>I made a basic UI in Qt to import reference images and track my camera feed. <br>
+Using SIFT I located and displayed the keypoints (small regions with a transformation-invariant color gradient) on the live feed.
+Invariance is a pretty abstract classification but it seems to pick out centers (as seen on the lights) and edges (as seen on me) most often.</p>
+<div style="text-align: center">
+    <img src="snickers-recognized.png" width="100%" height="auto">
+    <p><i></i></p>
+</div>
+<p>A point mapping from reference to frame is dynamically generated using Flann (method of locating closest vector pairs in gradient space)
+and RANSAC (a probabilistic sampling technique). Finally a homography is drawn to highlight the detected image. <br>
+Here it is recognizing a photo of my cat, even under a slight skew.</p>
+<hr>
+<p>To lay the foundation for CNNs I followed alongside Karpathy&rsquo;s tutorial on gradient descent
+and used it to make a simple linear regression generator with a squared difference loss function.</p>
+<p>The application of this project was to text detection. Building off TensorFlow features I developed and trained a deep learning MLP network.
+With only 20 epochs of training it reached about 90% accuracy in classifying letters and numbers.</p>
+<p>[TODO: CONFUSION MATRIX HERE]</p>
+<hr>
+<p>Having implemented these sub-behaviours I approached the real challenge: training the robot to navigate through the environment.</p>
+<p>There are many variables at play here: the road changes height, material, and color, and obstacles, both rigid and moving, hinder the robot&rsquo;s movement.</p>
+<p>I made a basic Q-learning system to start, using the HSV thresholding from before.
+The learning is implemented with the Bellman equation, which uses the following parameters:</p>
+<ul>
+<li>Alpha: learning rate.</li>
+<li>Gamma: value of observation relative to known rewards.</li>
+<li>Epsilon: exploration factor.</li>
+</ul>
+<div style="text-align: center">
+    <img src="robot_improving.png" width="100%" height="auto">
+    <p><i></i></p>
+</div>
+<p>With a very rudimentary, static reward function, as well as a pretty high epsilon, the robot is nevertheless able to learn and improve. The rewards plot is a bit erratic as the robot randomly veers off the track in tireless pursuit of escaping local minima, but exhibits a clear upward trend.</p>
+<p>For the competition, I&rsquo;m currently working on implementing simultaneous multiple output of speed and rotation for the navigation algorithm.</p>
+<p>&ndash; WIP &ndash;</p>
 
 
 
