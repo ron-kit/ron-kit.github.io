@@ -1,0 +1,12 @@
+.content img {
+    width: auto; /* Prevents stretching */
+    max-width: 100%; /* Ensures responsiveness */
+    height: auto; /* Maintains aspect ratio */
+    display: block;
+    margin: 0 auto; /* Centers the image */
+}
+.content {
+    max-width: 800px; /* Set desired text width */
+    margin: 0 auto;
+    padding: 0 15px;
+}

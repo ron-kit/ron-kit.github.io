@@ -49,14 +49,14 @@ I am constantly hungry for new music and rarely listen to the same track twice b
 
 {{<spotify type="album" id="5eeONMx10YBu8v5426i64e">}}
 
-I would argue [Resonance](https://www.youtube.com/watch?v=8GW6sLrK40k) is one of the defining songs of my generation (even crazier since the guy made it at 17 years old!!). In my tireless pursuit of music similar to it I stumbled upon this, and have since replayed it dozens of times while grinding through the tedious busywork of this degree. The chord progression in Horizon is divine.
+I would argue [Resonance](https://www.youtube.com/watch?v=8GW6sLrK40k) is one of the defining songs of my generation (even crazier since the guy made it at 17 years old!!). In my tireless pursuit of music similar to it I stumbled upon this, and have since replayed it dozens of times while grinding through the tedious busywork of this degree. Best song: Horizon
 
 {{<spotify type="album" id="1dixxA709bADWmK1rxnvug">}}
 
-Very accessible yet unique fusion album with crazy time signatures so well executed you'll barely notice them. Having only played guitar and bass I'm sure I am not appreciating the displays of musicianship here to their fullest extent. Cool 7 has cemented its place in my favorite songs of all time. A masterwork of modern jazz.
+Very accessible yet unique fusion album with crazy time signatures so well executed you'll barely notice them. Having only played guitar and bass I'm sure I am not appreciating the displays of musicianship here to their fullest extent. This is peak jazz. Best song: Cool 7
 
 {{<spotify type="album" id="2yB1l588RxtccxkZWuvk6c">}}
 
-An EP on the shorter side, but it still blew my mind. Progressive metal is my single favorite genre and this is a quintessential example of its lighter side. No screaming or shredding, but plenty of exciting rhythms, effulgent vocals, and satisfying production. The chorus in Flying is deserving of its name.
+An EP on the shorter side, but it still blew my mind. Progressive metal is my single favorite genre and this is a quintessential example of its lighter side. No screaming or shredding, but plenty of crazy rhythms, smooth vocals, and satisfying production. Best song: Flying
 
 Very long post here. I had a lot to get out. See you next week (maybe).

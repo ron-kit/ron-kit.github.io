@@ -1,14 +1,13 @@
 +++
 title = '2: Starting Third Year'
 date = 2024-09-21T22:36:59-07:00
-math = true
 +++
 
 I am now a 3rd year student. For anybody else this would indicate the halfway point of their university experience, but in my program I'll be lucky if it's one third.
 
-Still, time flies. It feels like just yesterday I was building cardboard chairs and claws, and just a day before that I was folding origami in my high school science class. But this makes sense: due to logarithmic time perception it feels like we've lived <u>[half our life by age 21](https://suryad.com/blog/percieved-age)</u>. 
+Still, time flies. It feels like just yesterday I was building cardboard chairs and claws, and just a day before that I was folding origami in my high school science class. But this makes sense: due to logarithmic time perception it feels like we've lived [half our life by age 21](https://suryad.com/blog/percieved-age). 
 
-So the proportion of my life that I've experienced so far is $$\frac{1}{2} \times \frac{\log 19}{\log 21} = 48 \\% .$$
+So the proportion of my life that I've experienced so far is $$ \frac{1}{2} \times \frac{\log 19}{\log 21} = 48 \% .$$
 
 Sobering.
 

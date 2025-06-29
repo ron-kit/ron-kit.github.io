@@ -64,9 +64,5 @@ The learning is implemented with the Bellman equation, which uses the following 
 
 {{<image src="robot_improving.png">}}
 
-With a very rudimentary, static reward function, as well as a pretty high epsilon, the robot is nevertheless able to learn and improve. The rewards plot is a bit erratic as the robot randomly veers off the track in tireless pursuit of escaping local minima, but exhibits a clear upward trend.
+With a simple, static reward function, as well as a pretty high epsilon, the robot is nevertheless able to learn and improve. The rewards plot is a bit erratic as the robot randomly veers off the track in tireless pursuit of escaping local minima, but exhibits a clear upward trend.
 
-For the competition, I'm currently working on implementing simultaneous multiple output of speed and rotation for the navigation algorithm. 
-
-
--- WIP --

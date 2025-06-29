@@ -32,7 +32,7 @@ I am a 3rd year engineering physics student at UBC. This is my portfolio website
             <p>
                 <div class="date">{{ .PublishDate.Format "Jan. 2, 2006" }}</div>
                 <h1><a href="{{ .Permalink }}" title="{{ .Title }}">{{ .Title }}</a></h1>
-                {{ .Summary }}
+                {{ .Summary | plainify | truncate 200 }}
             </p>
         </div>    
     {{ end }}

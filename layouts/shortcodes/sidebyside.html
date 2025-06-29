@@ -1,0 +1,44 @@
+<div class="side-by-side">
+    <div class="image-container">
+        <img src="{{ .Get "left" }}" class="side-image">
+    </div>
+    <div class="image-container">
+        <img src="{{ .Get "right" }}" class="side-image">
+    </div>
+</div>
+
+<style>
+.side-by-side {
+    display: flex;
+    gap: 10px;
+}
+.image-container {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.side-image {
+    width: 100%;
+    object-fit: cover;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    const containers = document.querySelectorAll(".image-container");
+    const heights = Array.from(containers).map(container => 
+        container.querySelector("img").naturalHeight / container.querySelector("img").naturalWidth
+    );
+    
+    const minHeightRatio = Math.min(...heights);
+    const width = containers[0].clientWidth; // Assumes both containers have the same width
+    const minHeight = width * minHeightRatio;
+    
+    containers.forEach(container => {
+        container.style.height = minHeight + "px";
+    });
+});
+</script>

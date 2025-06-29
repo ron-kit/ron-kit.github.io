@@ -23,18 +23,10 @@
       {{ printf `<link href="%s" rel="%s" type="%s" title="%s" />` .Permalink .Rel .MediaType.Type $.Site.Title | safeHTML }}
     {{ end }}
     {{- partial "opengraph.html" . -}}
-    {{- partial "twitter_cards.html" . -}}
     {{ template "_internal/google_analytics.html" . }}
-
+  
     {{- partial "header.html" . -}}
-    
-    <!-- KATEX STARTS HERE -->
-    {{ $noop := .Content }}
-    {{ if or (.HasShortcode "katex") (.Page.Store.Get "hasKatex") }}
-      {{ partial "katex.html" }}
-    {{ end }}
-    <!-- KATEX ENDS HERE-->
-     
+
 </head>
 <body class="terminal">
     <div class="container">

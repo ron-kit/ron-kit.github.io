@@ -3,7 +3,19 @@ languageCode = "en-us"
 title = "Ron Kitainik: Blog & Portfolio"
 theme = "hugo-theme-console"
 
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.extensions]
+      [markup.goldmark.extensions.passthrough]
+        enable = true
+        [markup.goldmark.extensions.passthrough.delimiters]
+          block = [['\[', '\]'], ['$$', '$$']]
+          inline = [['\(', '\)']]
+    [markup.goldmark.renderer]
+      unsafe = true
+
 [params]
+  math = true
   favicon = "img/favicon.ico"
 
   # Cutting off the page title to two chars for mobile (console-demo -> co)
@@ -11,7 +23,7 @@ theme = "hugo-theme-console"
 
   # Set the animation style -- https://animate.style/
   # To disable animations, please remove or comment animationStyle parameter
-  animateStyle = "animated bounceIn fast" 
+  # animateStyle = "animated bounceIn fast" 
 
   [[params.navlinks]]
   name = "about/"
