@@ -24,9 +24,10 @@
 <meta property="og:title" content="7: Summer" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/posts/blog7/" /><meta property="article:published_time" content="2025-06-01T13:06:48-07:00" />
+<meta property="og:url" content="http://localhost:1313/posts/blog7/" /><meta property="article:published_time" content="2025-05-31T13:06:48-07:00" />
 
 <link rel="stylesheet" href="/css/custom.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
 
 
 
@@ -71,14 +72,14 @@
         
 <h1>7: Summer</h1>
 
-Jun. 1, 2025
+May. 31, 2025
 
 <br/><br/>
 <div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden;">
       <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading="eager" referrerpolicy="strict-origin-when-cross-origin" src="https://www.youtube.com/embed/wGsDtZvzcSY?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%; border:0;" title="YouTube video"></iframe>
     </div>
 
-$$\\$$<p>The best season of the year is here at last. Sun = life.</p>
+<p>The best season of the year is here at last. Sun = life.</p>
 <div class="side-by-side">
     <div class="image-container">
         <img src="wizard.jpg" class="side-image">
@@ -87,6 +88,7 @@ $$\\$$<p>The best season of the year is here at last. Sun = life.</p>
         <img src="orb.jpeg" class="side-image">
     </div>
 </div>
+<p></p>
 
 <style>
 .side-by-side {
@@ -108,28 +110,347 @@ $$\\$$<p>The best season of the year is here at last. Sun = life.</p>
 </style>
 
 <script>
-document.addEventListener("DOMContentLoaded", function() {
-    const containers = document.querySelectorAll(".image-container");
-    const heights = Array.from(containers).map(container => 
-        container.querySelector("img").naturalHeight / container.querySelector("img").naturalWidth
-    );
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelectorAll(".side-by-side").forEach(group => {
+            const containers = group.querySelectorAll(".image-container");
+            const heights = Array.from(containers).map(container =>
+                container.querySelector("img").naturalHeight / container.querySelector("img").naturalWidth
+            );
     
-    const minHeightRatio = Math.min(...heights);
-    const width = containers[0].clientWidth; 
-    const minHeight = width * minHeightRatio;
+            const minHeightRatio = Math.min(...heights);
+            const width = containers[0].clientWidth;
+            const minHeight = width * minHeightRatio;
     
-    containers.forEach(container => {
-        container.style.height = minHeight + "px";
+            containers.forEach(container => {
+                container.style.height = minHeight + "px";
+            });
+        });
     });
-});
-</script>
+    </script>
+    
+
+<p>Pictured above is me for the entire spring semester. This serves as two reasons for the distinct lack of posts: firstly, it was a monotone and uneventful grind cycle without much to report on, and secondly, what little time I had to spare was all dedicated to job applications.</p>
+<div class="side-by-side">
+    <div class="image-container">
+        <img src="tragedy.jpeg" class="side-image">
+    </div>
+    <div class="image-container">
+        <img src="beers.jpg" class="side-image">
+    </div>
+</div>
+<p></p>
+
+<style>
+.side-by-side {
+    display: flex;
+    gap: 10px;
+}
+.image-container {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.side-image {
+    width: 100%;
+    object-fit: cover;
+}
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelectorAll(".side-by-side").forEach(group => {
+            const containers = group.querySelectorAll(".image-container");
+            const heights = Array.from(containers).map(container =>
+                container.querySelector("img").naturalHeight / container.querySelector("img").naturalWidth
+            );
+    
+            const minHeightRatio = Math.min(...heights);
+            const width = containers[0].clientWidth;
+            const minHeight = width * minHeightRatio;
+    
+            containers.forEach(container => {
+                container.style.height = minHeight + "px";
+            });
+        });
+    });
+    </script>
+    
+
+<p>Ok perhaps I am being too harsh. Living with roommates was pretty fun and honestly something I had been looking forward to since receiving my admission offer; it was a significant improvement over my residence experiences and facilitated many otherwise impossible activities both on and off campus.</p>
+
+
+
+  
+  
+
+  <div class="gallery">
+    
+    <a href="/posts/blog7/food/0breakfast.jpeg" class="glightbox" data-gallery="gallery">
+      <img src="/posts/blog7/food/0breakfast.jpeg" alt="food/0breakfast.jpeg" class="gallery-first">
+      <div class="caption" style="text-align:center; margin-top:0.5em;">Best food of the term (click to view)</div>
+    </a>
+
+    
+    
+      
+    
+      
+        <a href="/posts/blog7/food/1dinner.jpg" class="glightbox hidden" data-gallery="gallery"></a>
+      
+    
+      
+        <a href="/posts/blog7/food/2bigway.jpg" class="glightbox hidden" data-gallery="gallery"></a>
+      
+    
+      
+        <a href="/posts/blog7/food/3fattys.jpg" class="glightbox hidden" data-gallery="gallery"></a>
+      
+    
+      
+        <a href="/posts/blog7/food/4kbbq.jpg" class="glightbox hidden" data-gallery="gallery"></a>
+      
+    
+      
+        <a href="/posts/blog7/food/5breka.jpg" class="glightbox hidden" data-gallery="gallery"></a>
+      
+    
+  </div>
+  <p></p>
+
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet" />
+  <script>
+    GLightbox({
+      selector: '.glightbox',
+      touchNavigation: true,
+      loop: true
+    });
+  </script>
+
+
+<p>Now that March and April are accounted for, the question remains as to why I haven&rsquo;t written since.
+The answer is a ubiquitous, interminable burnout for everything adjacent to engineering and a coalescing desire to abandon all technology and spend 14 hours a day out of doors. This has been exacerbated by my conflicting values of total financial independense and never contributing to a parasitic, destructive system. I have been asked to elaborate on this before and will do so at a later time.</p>
+<p>My view is that satisfaction with life is conditional on a single thing: tension. Not the physical kind, but rather one arising from a psychological Hooke&rsquo;s law dependent on the length between the vectors of one&rsquo;s circumstances and one&rsquo;s goals. Temporal distance works inversely in this analogy, so the closer the goal is to the present, the more tension is felt by not reaching it, obviously. As a result of this I have recently suffered more than necessary by making most of my goals very short-term and predictably failing to meet them. My ambitions are a lot more far reaching than what can be accomplished in a couple weeks.</p>
+<p>I sure complain a lot. Lets get back to fun stuff.</p>
+<h1 id="how-the-last-2-months-have-gone">How the last 2 months have gone</h1>
+<p>I visited grandma in LA again to help out with house chores. California is a place of deception and duality: it gives the illusion of being livable, while in reality being the closest thing we have to hell on the Earth&rsquo;s surface. Consequently the water is foul from its distant travels and reminds me to be grateful for how clean we have it here. The job market is also the fakest on the planet: literally everybody works in entertainment. Attractive people are actors, smart people are marketers, and neither people fulfill the myriad other steps in the production of media. Nothing of value is ever produced in this city. One could even argue that negative value is produced as the manufactured addiction to the distractions and agenda-peddling inhibits the cognitive abilities of the collective human race. Lastly, there seems to be an established kamikaze social policy of housing crises and crime ignorance. No wonder <a href="https://www.statesman.com/story/news/state/2024/04/18/texas-to-california-moving-relocation-2022-us-census-bureau-population/73367615007/">Californians are all leaving</a> to states with the opposite of what they voted for.</p>
+<p>That being said, there are some upsides. The food is pretty amazing: unlike home, many restaraunts show up as palatable on <a href="https://www.seedoilscout.com/">an app I use</a>, and Trader Joes and Grocery Outlet rival Costco in variety and quality. Although the heat makes it difficult to exist outside, it can be harnessed to tan in the patio; here at home one has to undertake a lengthy drive to a noisy crowded beach to achieve the same result, since most dwellings are bugman pods with no secluded backyard. Lastly, it does seem to be a center of economic opportunity in the anthropological sense that &ldquo;people come here because people come here&rdquo;, meaning any promising ventures are likely to be well backed.</p>
+<p>Not that I have any in mind, or any desire to participate in any in the future, but it&rsquo;s nice to have options.</p>
+<h2 id="consoom">Consoom</h2>
+<p>I like games. Even with schedules and focus timers and other productivity techniques I have still been playing them. To impede the brain decay associated with this activity I have set a rule for myself to only play games that have an ending, as the ones that don&rsquo;t are far more destructive to gray matter.</p>
+<p>Here are all the ones I&rsquo;ve finished under this system:</p>
+<table>
+  <thead>
+      <tr>
+          <th style="text-align: center"><div style="width:350px">game</div></th>
+          <th style="text-align: center"><div style="width:100px">rate</div></th>
+          <th style="text-align: left">write</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td style="text-align: center"><a href="https://www.decisionproblem.com/paperclips/">Universal Paperclips</a></td>
+          <td style="text-align: center">7/10</td>
+          <td style="text-align: left">Idle games somehow caught my eye again. Here you play as an AI whose directive is to make paperclips, but the scope quickly grows to ridiculous proportions. A bit long but intriguing.</td>
+      </tr>
+      <tr>
+          <td style="text-align: center"><a href="https://adarkroom.doublespeakgames.com/">A Dark Room</a></td>
+          <td style="text-align: center">9/10</td>
+          <td style="text-align: left">I&rsquo;ve started this one many times in the past but never finished, and I am glad I did now. Starts as a tedious resource collector but there is more to it than meets the eye. Shorter than paperclips and much more interactive</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Plants vs. Zombies 2 Reflourished</td>
+          <td style="text-align: center">8/10</td>
+          <td style="text-align: left">Another nostalgia itch I was trying to scratch. Insane amount of content here, at least 500 total levels, and everything is free unlike the base game. Only gripe is that it&rsquo;s too easy.</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Kirby and the Forgotten Land</td>
+          <td style="text-align: center">7/10</td>
+          <td style="text-align: left">The first 3D kirby mostly lived up to my expectations. Levels are restrictive, but pretty; bosses are repetitive, but quite hard and fun. Post game is terrible though.</td>
+      </tr>
+      <tr>
+          <td style="text-align: center">Super Mario Odyssey</td>
+          <td style="text-align: center">10/10</td>
+          <td style="text-align: left">I emulated the switch specifically for this one game. It is a very good game. Possibly the best ever. Same issue with bosses but the rest of the journey to 100% is brimming with novelty.</td>
+      </tr>
+  </tbody>
+</table>
+<p>Ok this is getting too long. Enjoy a rapid fire summary of my physical activities over the months:</p>
+<h2 id="fit">Fit</h2>
+<p>I went to Gold&rsquo;s Gym with my friend Eric (and ate some more)</p>
+<div class="side-by-side">
+    <div class="image-container">
+        <img src="fitboys.jpg" class="side-image">
+    </div>
+    <div class="image-container">
+        <img src="sushi.jpg" class="side-image">
+    </div>
+</div>
+<p></p>
+
+<style>
+.side-by-side {
+    display: flex;
+    gap: 10px;
+}
+.image-container {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.side-image {
+    width: 100%;
+    object-fit: cover;
+}
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelectorAll(".side-by-side").forEach(group => {
+            const containers = group.querySelectorAll(".image-container");
+            const heights = Array.from(containers).map(container =>
+                container.querySelector("img").naturalHeight / container.querySelector("img").naturalWidth
+            );
+    
+            const minHeightRatio = Math.min(...heights);
+            const width = containers[0].clientWidth;
+            const minHeight = width * minHeightRatio;
+    
+            containers.forEach(container => {
+                container.style.height = minHeight + "px";
+            });
+        });
+    });
+    </script>
+    
 
 <hr>
-<h2 id="some-thoughts">Some thoughts</h2>
+<p>I biked my first (almost) 50k</p>
+<div class="side-by-side">
+    <div class="image-container">
+        <img src="50k.jpeg" class="side-image">
+    </div>
+    <div class="image-container">
+        <img src="poco.jpeg" class="side-image">
+    </div>
+</div>
+<p></p>
+
+<style>
+.side-by-side {
+    display: flex;
+    gap: 10px;
+}
+.image-container {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.side-image {
+    width: 100%;
+    object-fit: cover;
+}
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelectorAll(".side-by-side").forEach(group => {
+            const containers = group.querySelectorAll(".image-container");
+            const heights = Array.from(containers).map(container =>
+                container.querySelector("img").naturalHeight / container.querySelector("img").naturalWidth
+            );
+    
+            const minHeightRatio = Math.min(...heights);
+            const width = containers[0].clientWidth;
+            const minHeight = width * minHeightRatio;
+    
+            containers.forEach(container => {
+                container.style.height = minHeight + "px";
+            });
+        });
+    });
+    </script>
+    
+
+<hr>
+<p>I climbed Diez Vistas &amp; Chief in two consecutive days</p>
+<div class="side-by-side">
+    <div class="image-container">
+        <img src="diez.jpg" class="side-image">
+    </div>
+    <div class="image-container">
+        <img src="chief.jpg" class="side-image">
+    </div>
+</div>
+<p></p>
+
+<style>
+.side-by-side {
+    display: flex;
+    gap: 10px;
+}
+.image-container {
+    flex: 1;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: auto;
+}
+.side-image {
+    width: 100%;
+    object-fit: cover;
+}
+</style>
+
+<script>
+    document.addEventListener("DOMContentLoaded", function() {
+        document.querySelectorAll(".side-by-side").forEach(group => {
+            const containers = group.querySelectorAll(".image-container");
+            const heights = Array.from(containers).map(container =>
+                container.querySelector("img").naturalHeight / container.querySelector("img").naturalWidth
+            );
+    
+            const minHeightRatio = Math.min(...heights);
+            const width = containers[0].clientWidth;
+            const minHeight = width * minHeightRatio;
+    
+            containers.forEach(container => {
+                container.style.height = minHeight + "px";
+            });
+        });
+    });
+    </script>
+    
+
+<hr>
+<p>I hiked Panorama Ridge</p>
+<div style="text-align: center">
+    <img src="panoramic.jpg" width="100%" height="auto">
+    <p><i></i></p>
+</div>
+<hr>
+<p>I went shooting for the first time</p>
+<div style="text-align: center">
+    <img src="gun.jpg" width="100%" height="auto">
+    <p><i></i></p>
+</div>
 <h2 id="departure">Departure</h2>
 <p>Writing this post took WAY more effort than normal as I had to catch up with framework updates and clean up ugly rendering.
 I am still adding features to the site, but its static nature is pretty limiting.
-It might be time to bite the bullet and transfer to a dynamic and more customizable website.</p>
+For example, despite the large number of photos in this post, I dont feel like learning how to add a photography section in the current theme.</p>
+<p>It might be time to bite the bullet ;) and transfer to a dynamic and more customizable website.
+Alas webdev is boring so I will in all likelihood remain here until my software skills exceed the confines of this framework.</p>
+<p>Enjoy your summer. -Rom</p>
 
 
 

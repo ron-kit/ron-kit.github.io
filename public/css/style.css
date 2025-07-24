@@ -1,0 +1,15 @@
+.gallery {
+    column-count: 3;
+    column-gap: 10px;
+  }
+  .gallery img {
+    width: 100%;
+    margin-bottom: 10px;
+    break-inside: avoid;
+  }
+  @media (max-width: 768px) {
+    .gallery { column-count: 2; }
+  }
+  @media (max-width: 480px) {
+    .gallery { column-count: 1; }
+  }

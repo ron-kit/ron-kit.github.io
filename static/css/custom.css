@@ -10,3 +10,21 @@
     margin: 0 auto;
     padding: 0 15px;
 }
+
+.gallery {
+    column-count: 1;
+    column-gap: 10px;
+  }
+  .gallery img {
+    width: 100%;
+    margin-bottom: 10px;
+  }
+  .hidden {
+    display: none;
+  }
+  .gallery-first {
+    display: block;
+  }
+  @media (max-width: 768px) {
+    .gallery { column-count: 1; }
+  }

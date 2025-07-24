@@ -1,0 +1,32 @@
+{{ $folder := .Get "folder" }}
+{{ $images := .Page.Resources.Match (printf "%s/*" $folder) }}
+{{ if gt (len $images) 0 }}
+  {{ $first := index $images 0 }}
+  {{ $thumbnail := $first}}
+
+  <div class="gallery">
+    <!-- Only first image is shown -->
+    <a href="{{ $first.RelPermalink }}" class="glightbox" data-gallery="gallery">
+      <img src="{{ $thumbnail.RelPermalink }}" alt="{{ $first.Title | default $first.Name }}" class="gallery-first">
+      <div class="caption" style="text-align:center; margin-top:0.5em;">{{ .Get "title" }}</div>
+    </a>
+
+    <!-- All other images are hidden but part of the lightbox group -->
+    {{ range $i, $img := $images }}
+      {{ if ne $i 0 }}
+        <a href="{{ $img.RelPermalink }}" class="glightbox hidden" data-gallery="gallery"></a>
+      {{ end }}
+    {{ end }}
+  </div>
+  <p></p>
+
+  <script src="https://cdn.jsdelivr.net/npm/glightbox/dist/js/glightbox.min.js"></script>
+  <link href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" rel="stylesheet" />
+  <script>
+    GLightbox({
+      selector: '.glightbox',
+      touchNavigation: true,
+      loop: true
+    });
+  </script>
+{{ end }}
