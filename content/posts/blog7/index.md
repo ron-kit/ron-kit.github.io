@@ -1,6 +1,6 @@
 ---
 title: "7: Summer"
-date: 2025-06-31T13:06:48-07:00
+date: 2025-07-01T13:06:48-07:00
 ---
 
 {{<youtube "wGsDtZvzcSY">}}
