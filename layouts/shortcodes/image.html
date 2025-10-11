@@ -1,4 +1,4 @@
 <div style="text-align: center">
-    <img src="{{ .Get "src" }}" width="{{ .Get "width" | default "100%" }}" height="auto">
+    <img src="{{ .Get `src` }}" width="{{ .Get `width` | default `100%` }}" height="auto" alt="{{ .Get `alt` }}">
     <p><i>{{ .Get "caption"}}</i></p>
 </div>

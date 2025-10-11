@@ -1,42 +1,56 @@
-+++
-title = '0. Hello'
-date = 2024-08-31T22:38:04-07:00
-+++
+---
+title: '0. Hello'
+date: 2024-08-31T22:38:04-07:00
+---
 
-# Hello
+Welcome to my website.
 
-Welcome to my blog. Here is my first post, at least the first that made it out of  testing and to deployment.
+I update it every so often with stories about my projects and other exciting things from my life.
 
-I will update this blog ~biweekly~ occasionally  with stories from my life and write about my work on projects.
+Thanks to [Steven Chen](https://shengwen.me/) for inspiring me to start it and helping set it up.
 
-Thanks to [Steven Chen](https://shengwen.me/) for inspiring me to start this and helping set it up.
+I'm mostly a hardware guy, but my code projects can be found on my [github](https://github.com/ron-kit/).
 
-My other stuff can be found on my [github](https://github.com/ron-kit/) or [gitlab](https://gitlab.com/ron-kit/). I prefer the latter as it isn't microsoft affiliated, but it is trickier to use, as it couldn't deploy this site no matter what I tried. Eventually I'd like to move there.
+![Engineers love hiking](images/Seymour.jpg)
 
 ---
 
-Below I'll test various Hugo and markdown features.
+Below are a few tests to see if these features still work whenever I update the framework/theme
 
-### Picture of me
+## Cat video
 
-![Golden Ears](images/Seymour.jpg)
+{{<video src="videos/cat.mp4" width="400px">}}
 
-### Funny video
+\[\\\]
 
-{{<video src="videos/fan.mp4" width="400px">}}
-
-### Text experiments
+## Text experiments
 
 <span style="color:green"> This is green,</span>
 <span style="color:blue"> this is blue,</span>
 <span style="color:purple"> this is purple</span>
+
+<style>
+@keyframes colorChange {
+    0% { color: red; }<
+    33% { color: blue; }
+    66% { color: green; }
+    100% { color: red; }
+}
+.color-cycle { animation: colorChange 5s infinite; }
+@keyframes rotate {
+    from { transform: rotate(0deg); }
+    to { transform: rotate(360deg); }
+}
+.cool { display: inline-block; animation: colorChange 5s infinite, rotate 4s linear infinite; }
+</style>
+<p class="cool">This is cool</p>
 
 Hover over to see the <abbr title="Eat your vegetables">secret message </abbr>
 
 ||Left|Right|
 |-|-|-|
 |**Up**|_Italic_|**Bold**|
-|**Down**|~~Strike~~|`Code`|
+|**Down**|~~Strike~~|<u>Line</u>|
 
 \[ u(r,z,t) = \sum_{n=1}^\infty \sum_{m=1}^\infty \sin \left( \frac{m\pi z}{h}\right)J_0 \left( \sqrt{\mu_n}r \right)e^{-\lambda_{mn}Dt} \]
 

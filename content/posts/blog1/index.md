@@ -1,7 +1,8 @@
-+++
-title = '1: Robot'
-date = 2024-09-07T23:15:10-07:00
-+++
+---
+title: '1: Robot'
+date: 2024-09-07T23:15:10-07:00
+draft: true
+---
 
  Here is the first real content of my blog. This inaugural post will (briefly) document the assembly of my team's robots for the ENPH253 course.
 

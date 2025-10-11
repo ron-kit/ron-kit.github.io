@@ -1,7 +1,8 @@
-+++
-title = '4: Many Events'
-date = 2024-10-22T21:30:20-07:00
-+++
+---
+title: '4: Many Events'
+date: 2024-10-22T21:30:20-07:00
+draft: true
+---
 
 {{<image src="images/october.png">}}
 

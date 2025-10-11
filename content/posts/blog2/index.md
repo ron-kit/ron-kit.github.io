@@ -1,7 +1,8 @@
-+++
-title = '2: Starting Third Year'
-date = 2024-09-21T22:36:59-07:00
-+++
+---
+title: '2: Starting Third Year'
+date: 2024-09-21T22:36:59-07:00
+draft: true
+---
 
 I am now a 3rd year student. For anybody else this would indicate the halfway point of their university experience, but in my program I'll be lucky if it's one third.
 

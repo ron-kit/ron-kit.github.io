@@ -1,6 +1,7 @@
 ---
-title: "7: Summer"
+title: '7: Summer'
 date: 2025-07-01T13:06:48-07:00
+draft: true
 ---
 
 {{<youtube "wGsDtZvzcSY">}}

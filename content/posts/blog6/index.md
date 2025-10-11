@@ -1,6 +1,7 @@
 ---
-title: "6: New Year"
+title: '6: New Year'
 date: 2025-02-02T23:53:46-08:00
+draft: true
 ---
 
 Time passes quickly. Macroscopically, we are somehow already a quarter of the way through the century; microscopically, it has been nearly 2 months since my last biweekly blog. Oops.
