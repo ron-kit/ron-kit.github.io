@@ -3,9 +3,9 @@ title: 'About Me'
 date: 2025-01-01T19:31:02-08:00
 ---
 
-Hello! I'm Ron, a 3rd year engineering physics student at UBC. I like energy, space, and robotics.
+Hello! I'm Ron, a 4th year engineering physics student at UBC, currently on a work term at the CSA. 
 
-My grandest ambitions are accessible space travel and universal nuclear power, while my more down-to-earth interests include biking, music, and origami. 
+I like energy, space, and robotics, and in my free time I enjoy biking, guitar, and origami. 
 
 Thanks for visiting my website!
 
