@@ -69,7 +69,7 @@
         </div>
     </div>
 
-    <div class="container " >
+    <div class="container animated bounceInLeft" >
         
 <h1>Simulated Self-Driving Robot</h1>
 
@@ -79,7 +79,7 @@
 
 
 <p>A virtual robot that detects features and navigates terrain to compete in a race. Programmed with OpenCV, connected with ROS, and simulated in Gazebo.</p>
-<hr>
+<p>+++</p>
 <h2 id="competition-map">Competition Map</h2>
 <div style="text-align: center">
     <img src="images/353map.gif" width="100%" height="auto" alt="">
@@ -96,7 +96,7 @@ The standard approach to this is to apply a Gaussian blur followed by a binary t
 <p>Using a pregenerated video of the robot driving a lap, I added realtime frame processing to locate the the road.
 By taking the centroid of the road segment detected in the bottom quarter of each frame, my algorithm was able to very accurately place a circle on the middle of the road.</p>
 <p>This would be useful for navigation later, but for now I pivoted to another task: keypoint detection with SIFT.</p>
-<hr>
+<p>+++</p>
 <div style="text-align: center">
     <img src="images/keypoints.png" width="100%" height="auto" alt="">
     <p><i></i></p>
@@ -111,13 +111,13 @@ Invariance is a pretty abstract classification but it seems to pick out centers 
 <p>A point mapping from reference to frame is dynamically generated using Flann (method of locating closest vector pairs in gradient space)
 and RANSAC (a probabilistic sampling technique). Finally a homography is drawn to highlight the detected image. <br>
 Here it is recognizing a photo of my cat, even under a slight skew.</p>
-<hr>
+<p>+++</p>
 <p>To lay the foundation for CNNs I followed alongside Karpathy&rsquo;s tutorial on gradient descent
 and used it to make a simple linear regression generator with a squared difference loss function.</p>
 <p>The application of this project was to text detection. Building off TensorFlow features I developed and trained a deep learning MLP network.
 With only 20 epochs of training it reached about 90% accuracy in classifying letters and numbers.</p>
 <p>[TODO: CONFUSION MATRIX HERE]</p>
-<hr>
+<p>+++</p>
 <p>Having implemented these sub-behaviours I approached the real challenge: training the robot to navigate through the environment.</p>
 <p>There are many variables at play here: the road changes height, material, and color, and obstacles, both rigid and moving, hinder the robot&rsquo;s movement.</p>
 <p>I made a basic Q-learning system to start, using the HSV thresholding from before.

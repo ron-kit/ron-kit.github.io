@@ -1,8 +1,8 @@
----
-image: "images/boxbot.jpeg"
-title: "Copper Dome"
-date: 2026-01-28T11:56:37-08:00
----
++++
+image = "images/boxbot.jpeg"
+title = "Copper Dome"
+date = 2026-01-28T11:56:37-08:00
++++
 
 
 At the [BoxBots](https://boxbots.devpost.com/) hackathon, we were challenged to make a robot that could do something cool using only cardboard for building materials.

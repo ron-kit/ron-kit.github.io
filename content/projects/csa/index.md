@@ -1,8 +1,8 @@
----
-image: 'images/flags.jpeg'
-title: 'CSA Internship'
-date: 2026-01-25T12:13:40-08:00
----
++++
+image = 'images/flags.jpeg'
+title = 'CSA Internship'
+date = 2026-01-25T12:13:40-08:00
++++
 
 I had the opportunity to work at the CSA's headquarters in Montreal as a Mission Management Intern from September to December 2025. It was a very fun and memorable experience, and certainly one I would repeat.
 

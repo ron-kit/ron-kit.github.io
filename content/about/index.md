@@ -1,7 +1,7 @@
----
-title: 'About Me'
-date: 2025-01-01T19:31:02-08:00
----
++++
+title = 'About Me'
+date = 2025-01-01T19:31:02-08:00
++++
 
 Hello! I'm Ron, a 4th year engineering physics student at UBC.
 I have previously worked at the Canadian Space Agency and for the City of Vancouver.

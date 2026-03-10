@@ -23,7 +23,7 @@ theme = "hugo-theme-console"
 
   # Set the animation style -- https://animate.style/
   # To disable animations, please remove or comment animationStyle parameter
-  # animateStyle = "animated bounceIn fast" 
+  animateStyle = "animated bounceInLeft" 
 
   [[params.navlinks]]
   name = "about/"

@@ -7,7 +7,7 @@ type = "gallery"
 
 A virtual robot that detects features and navigates terrain to compete in a race. Programmed with OpenCV, connected with ROS, and simulated in Gazebo.
 
----
++++
 
 ## Competition Map
 
@@ -25,7 +25,7 @@ By taking the centroid of the road segment detected in the bottom quarter of eac
 
 This would be useful for navigation later, but for now I pivoted to another task: keypoint detection with SIFT.
 
----
++++
 
 {{<image src="images/keypoints.png">}}
 
@@ -39,7 +39,7 @@ A point mapping from reference to frame is dynamically generated using Flann (me
 and RANSAC (a probabilistic sampling technique). Finally a homography is drawn to highlight the detected image. \
 Here it is recognizing a photo of my cat, even under a slight skew.
 
----
++++
 
 To lay the foundation for CNNs I followed alongside Karpathy's tutorial on gradient descent 
 and used it to make a simple linear regression generator with a squared difference loss function.
@@ -49,7 +49,7 @@ With only 20 epochs of training it reached about 90% accuracy in classifying let
 
 [TODO: CONFUSION MATRIX HERE]
 
----
++++
 
 Having implemented these sub-behaviours I approached the real challenge: training the robot to navigate through the environment.
 
