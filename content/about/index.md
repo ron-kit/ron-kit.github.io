@@ -12,4 +12,4 @@ Thanks for visiting my website!
 
 {{<image src="canadarm-crop.png" alt="Me at the CSA">}}
 
-{{<pdf src="Ron Kitainik Resume 2026.pdf">}}
+{{<pdf src="Ron_Kitainik_Resume.pdf">}}
