@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Ron&#39;s Portfolio/projects/csa/</title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="robots" content="all,follow">
+    <meta name="googlebot" content="index,follow,snippet,archive">
+    <link rel="stylesheet" href="https://ron-kit.github.io/hugo-theme-console/css/terminal-0.7.4.min.css">
+    <link rel="stylesheet" href="https://ron-kit.github.io/hugo-theme-console/css/animate-4.1.1.min.css">
+    <link rel="stylesheet" href="https://ron-kit.github.io/hugo-theme-console/css/console.css">
+    
+      <!--[if lt IE 9]>
+          <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+          <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+      <![endif]-->
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+<link rel="manifest" href="/site.webmanifest">
+<meta property="og:title" content="CSA Internship" />
+<meta property="og:description" content="" />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="https://ron-kit.github.io/projects/csa/" />
+
+
+  
+<meta property="og:image" content="https://ron-kit.github.io/projects/csa/images/flags_hu_55cbea7e878b299f.jpeg">
+
+<meta property="article:published_time" content="2026-01-25T12:13:40-08:00" />
+
+<link rel="stylesheet" href="/css/custom.css">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/glightbox/dist/css/glightbox.min.css" />
+
+
+
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml.js"></script>
+<script>
+  MathJax = {
+    tex: {
+      displayMath: [['\\[', '\\]'], ['$$', '$$']],  
+      inlineMath: [['\\(', '\\)'], ['$', '$']]      
+    },
+    loader:{
+      load: ['ui/safe']
+    },
+  };
+</script>
+
+</head>
+<body class="terminal">
+    <div class="container">
+        <div class="terminal-nav">
+          <header class="terminal-logo">
+            <div class="logo terminal-prompt">
+              
+              
+              <a href="https://ron-kit.github.io/" class="no-style site-name">Ron&#39;s Portfolio</a>:~# 
+              <a href='https://ron-kit.github.io/projects'>projects</a>/<a href='https://ron-kit.github.io/projects/csa'>csa</a>/</div></header>
+          <nav class="terminal-menu">
+            <ul vocab="https://schema.org/" typeof="BreadcrumbList">
+                
+                <li><a href="https://ron-kit.github.io/about/" typeof="ListItem">about/</a></li>
+                
+                <li><a href="https://ron-kit.github.io/projects/" typeof="ListItem">projects/</a></li>
+                
+            </ul>
+          </nav>
+        </div>
+    </div>
+
+    <div class="container " >
+        
+<h1>CSA Internship</h1>
+<p>I had the opportunity to work at the CSA&rsquo;s headquarters in Montreal as a Mission Management Intern from September to December 2025. It was a very fun and memorable experience, and certainly one I would repeat.</p>
+<p>I worked on TICFIRE, an instrument that will measure atmospheric radiation and discern between ice and water clouds once it is launched to NASA&rsquo;s AOS (Atmosphere Observing System).</p>
+<div class="side-by-side">
+    <div class="image-container">
+        <img src="images/hawc.jpg" class="side-image">
+    </div>
+    <div class="image-container">
+        <img src="images/aos.jpg" class="side-image">
+    </div>
+</div>
+<p></p>
+
+<style>
+.side-by-side {
+    display: flex;
+    gap: 10px;
+}
+.image-container {
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.side-image {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+</style>
+
+<script>
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll(".side-by-side").forEach(group => {
+        const imgs = group.querySelectorAll(".side-image");
+        const gap = 10;
+        const totalWidth = group.clientWidth - gap;
+
+        
+        Promise.all(Array.from(imgs).map(img =>
+            img.complete ? Promise.resolve() : new Promise(r => img.onload = r)
+        )).then(() => {
+            const r0 = imgs[0].naturalWidth / imgs[0].naturalHeight;
+            const r1 = imgs[1].naturalWidth / imgs[1].naturalHeight;
+
+            
+            
+            const h = totalWidth / (r0 + r1);
+
+            const containers = group.querySelectorAll(".image-container");
+            containers[0].style.width = (r0 * h) + "px";
+            containers[1].style.width = (r1 * h) + "px";
+            containers[0].style.flex = "none";
+            containers[1].style.flex = "none";
+        });
+    });
+});
+</script>
+<p>Ice and water clouds can be distinguished by how they refract and absorb particular wavelengths of light. The intern before me developed a neural net that attempted to do this using real instrument data. It was fairly accurate, but the confusion matrix did have non negligible off diagonal entries; cloud classification is a difficult problem, given they come in irregular shapes, varying temperatures, and can even be a mix of both water and ice.</p>
+<p>I was given the option to continue improving this model, but I went for the other choice: developing the simulator.</p>
+<h1 id="what-i-did">What I did</h1>
+<p>When I started, TICFIRE was in its very early stages, not even having left Phase A yet. there were several meeting chains to initiate with the project kickoff - one with each of the competing contractors, and one with the university collaborators.</p>
+<p>My role was twofold:</p>
+<ul>
+<li>For the project management team, I took minutes of contractor meetings, created tools to track deliverables and RIDs, and organized strategic documents;</li>
+<li>for the science team, I optimized physics and performance for TICFIRESim, designed an interface to use various radiative transfer frameworks from different servers, and compared the expected outputs with readings of the microbolometer in the lab.</li>
+</ul>
+<p>In the end I made and presented this poster to CSA employees including Lisa Campbell, the current president.</p>
+<div style="text-align: center">
+    <img src="images/poster.jpeg" width="100%" height="auto" alt="">
+    <p><i></i></p>
+</div>
+<h1 id="montreal">Montreal</h1>
+<p>I really loved the city; the seasons are much more pronounced and distinct, the infrastructure facilitates a healthy lifestyle, and it feels alive and real in a way that Vancouver doesn&rsquo;t. If it wasn&rsquo;t uninhabitable in the winter months, or French, I&rsquo;d seriously consider moving there after graduating.</p>
+<div style="text-align: center">
+    <img src="images/biodome.jpeg" width="100%" height="auto" alt="">
+    <p><i></i></p>
+</div>
+<div style="text-align: center">
+    <img src="images/chateau.jpeg" width="100%" height="auto" alt="">
+    <p><i></i></p>
+</div>
+<p>[I also went to Quebec City for a weekend]</p>
+<div style="text-align: center">
+    <img src="images/summer-skyline.jpeg" width="100%" height="auto" alt="">
+    <p><i></i></p>
+</div>
+<div style="text-align: center">
+    <img src="images/winter-skyline.jpeg" width="100%" height="auto" alt="">
+    <p><i></i></p>
+</div>
+
+
+        <div class="footer">
+    Powered by <a href="https://gohugo.io/">Hugo</a> with
+    <a href="https://github.com/mrmierzejewski/hugo-theme-console/">Console Theme</a>. 
+</div>
+
+    </div>
+  </body>
+</html>

@@ -1,40 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Projects on Ron Kitainik: Blog &amp; Portfolio</title>
-    <link>http://localhost:1313/projects/</link>
-    <description>Recent content in Projects on Ron Kitainik: Blog &amp; Portfolio</description>
+    <title>Projects on Ron&#39;s Portfolio</title>
+    <link>https://ron-kit.github.io/projects/</link>
+    <description>Recent content in Projects on Ron&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
-    <lastBuildDate>Thu, 23 Jan 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 15 Feb 2026 19:45:39 -0800</lastBuildDate>
+    <atom:link href="https://ron-kit.github.io/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Capstone</title>
+      <link>https://ron-kit.github.io/projects/capstone/</link>
+      <pubDate>Sun, 15 Feb 2026 19:45:39 -0800</pubDate>
+      <guid>https://ron-kit.github.io/projects/capstone/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Copper Dome</title>
+      <link>https://ron-kit.github.io/projects/boxbots/</link>
+      <pubDate>Wed, 28 Jan 2026 11:56:37 -0800</pubDate>
+      <guid>https://ron-kit.github.io/projects/boxbots/</guid>
+      <description>&lt;p&gt;At the &lt;a href=&#34;https://boxbots.devpost.com/&#34;&gt;BoxBots&lt;/a&gt; hackathon, we were challenged to make a robot that could do something cool using only cardboard for building materials.&lt;/p&gt;&#xA;&lt;p&gt;Over the course of 36 hours, &lt;a href=&#34;https://x.com/yufeng_liu15&#34;&gt;Yufeng&lt;/a&gt;, &lt;a href=&#34;https://x.com/bskdany&#34;&gt;Daniel&lt;/a&gt; and I made &lt;strong&gt;Copper Dome&lt;/strong&gt; - an arm mounted, &lt;del&gt;auto targeting&lt;/del&gt;,  &lt;del&gt;completely safe&lt;/del&gt; rocket launcher.&lt;/p&gt;&#xA;&lt;h1 id=&#34;how-and-why&#34;&gt;How and why&lt;/h1&gt;&#xA;&lt;p&gt;I have never done a hackathon before, as I am not big on software, and the premise of most of them is &amp;ldquo;code for 48 hours&amp;rdquo;. When my co-intern and friend Yufeng told me about this hardware one though, I knew I had to join him.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>CSA Internship</title>
+      <link>https://ron-kit.github.io/projects/csa/</link>
+      <pubDate>Sun, 25 Jan 2026 12:13:40 -0800</pubDate>
+      <guid>https://ron-kit.github.io/projects/csa/</guid>
+      <description>&lt;p&gt;I had the opportunity to work at the CSA&amp;rsquo;s headquarters in Montreal as a Mission Management Intern from September to December 2025. It was a very fun and memorable experience, and certainly one I would repeat.&lt;/p&gt;&#xA;&lt;p&gt;I worked on TICFIRE, an instrument that will measure atmospheric radiation and discern between ice and water clouds once it is launched to NASA&amp;rsquo;s AOS (Atmosphere Observing System).&lt;/p&gt;&#xA;&lt;div class=&#34;side-by-side&#34;&gt;&#xA;    &lt;div class=&#34;image-container&#34;&gt;&#xA;        &lt;img src=&#34;images/hawc.jpg&#34; class=&#34;side-image&#34;&gt;&#xA;    &lt;/div&gt;&#xA;    &lt;div class=&#34;image-container&#34;&gt;&#xA;        &lt;img src=&#34;images/aos.jpg&#34; class=&#34;side-image&#34;&gt;&#xA;    &lt;/div&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;&lt;/p&gt;&#xA;&#xA;&lt;style&gt;&#xA;.side-by-side {&#xA;    display: flex;&#xA;    gap: 10px;&#xA;}&#xA;.image-container {&#xA;    overflow: hidden;&#xA;    display: flex;&#xA;    align-items: center;&#xA;    justify-content: center;&#xA;}&#xA;.side-image {&#xA;    width: 100%;&#xA;    height: 100%;&#xA;    object-fit: contain;&#xA;}&#xA;&lt;/style&gt;&#xA;&#xA;&lt;script&gt;&#xA;document.addEventListener(&#34;DOMContentLoaded&#34;, function() {&#xA;    document.querySelectorAll(&#34;.side-by-side&#34;).forEach(group =&gt; {&#xA;        const imgs = group.querySelectorAll(&#34;.side-image&#34;);&#xA;        const gap = 10;&#xA;        const totalWidth = group.clientWidth - gap;&#xA;&#xA;        &#xA;        Promise.all(Array.from(imgs).map(img =&gt;&#xA;            img.complete ? Promise.resolve() : new Promise(r =&gt; img.onload = r)&#xA;        )).then(() =&gt; {&#xA;            const r0 = imgs[0].naturalWidth / imgs[0].naturalHeight;&#xA;            const r1 = imgs[1].naturalWidth / imgs[1].naturalHeight;&#xA;&#xA;            &#xA;            &#xA;            const h = totalWidth / (r0 + r1);&#xA;&#xA;            const containers = group.querySelectorAll(&#34;.image-container&#34;);&#xA;            containers[0].style.width = (r0 * h) + &#34;px&#34;;&#xA;            containers[1].style.width = (r1 * h) + &#34;px&#34;;&#xA;            containers[0].style.flex = &#34;none&#34;;&#xA;            containers[1].style.flex = &#34;none&#34;;&#xA;        });&#xA;    });&#xA;});&#xA;&lt;/script&gt;&#xA;&lt;p&gt;Ice and water clouds can be distinguished by how they refract and absorb particular wavelengths of light. The intern before me developed a neural net that attempted to do this using real instrument data. It was fairly accurate, but the confusion matrix did have non negligible off diagonal entries; cloud classification is a difficult problem, given they come in irregular shapes, varying temperatures, and can even be a mix of both water and ice.&lt;/p&gt;</description>
+    </item>
     <item>
       <title>FFC for UBC Orbit</title>
-      <link>http://localhost:1313/projects/orbit/</link>
+      <link>https://ron-kit.github.io/projects/orbit/</link>
       <pubDate>Thu, 23 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/orbit/</guid>
-      <description>&lt;p&gt;As a member of UBC Orbit&amp;rsquo;s OBC (On-Board Computer) subteam, I&amp;rsquo;ve made various contributions and improvements to our satellite&amp;rsquo;s electronics.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xA;    &lt;img src=&#34;ffc.png&#34; width=&#34;100%&#34; height=&#34;auto&#34; alt=&#34;&#34;&gt;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Above is a custom FFC (Flat Flexible Cable) I designed to interface between the OBC (On-Board Computer) and COMMS subsystems.&lt;/p&gt;&#xA;&lt;p&gt;I had to take a number of factors into consideration for this design:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The COMMS board processes and amplifies received RF signals, so I had to design this board with high frequency signals of about 1-2A in mind.&lt;/li&gt;&#xA;&lt;li&gt;Also, conditions in space, even in low orbit, are much more hostile than those on Earth, so the materials were also chosen carefully.&lt;/li&gt;&#xA;&lt;li&gt;Instead of the polyester that most COTS cables are made of, I used a polyimide coverlay to minimize degassing, and a gold surface finish for longevity.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xA;    &lt;img src=&#34;layerstack.png&#34; width=&#34;100%&#34; height=&#34;auto&#34; alt=&#34;&#34;&gt;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;</description>
+      <guid>https://ron-kit.github.io/projects/orbit/</guid>
+      <description>&lt;p&gt;As the lead of UBC Orbit&amp;rsquo;s OBC (On-Board Computer) subteam, I made various contributions and improvements to the satellite&amp;rsquo;s electronics.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xA;    &lt;img src=&#34;ffc.png&#34; width=&#34;100%&#34; height=&#34;auto&#34; alt=&#34;&#34;&gt;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Above is a custom FFC (Flat Flexible Cable) I designed to interface between the OBC and COMMS subsystems.&lt;/p&gt;&#xA;&lt;p&gt;I had to take a number of factors into consideration for this design:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;The COMMS board processes and amplifies received RF signals, so I had to design this board with high frequency signals of about 1-2A in mind.&lt;/li&gt;&#xA;&lt;li&gt;Vacuum and thermal conditions in space - even in low orbit - are much more hostile than those on Earth, so the materials were chosen carefully.&lt;/li&gt;&#xA;&lt;li&gt;Instead of the polyester that most COTS cables are made of, I used a polyimide coverlay to minimize degassing, and a gold surface finish for longevity.&lt;/li&gt;&#xA;&lt;li&gt;Also, the connection process of the old cable was convoluted and slow, requiring screw insertion, so I designed a receptacle component and corresponding mating process by researching that of similarly sized Molex cables.&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xA;    &lt;img src=&#34;layerstack.png&#34; width=&#34;100%&#34; height=&#34;auto&#34; alt=&#34;&#34;&gt;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Simulated Self-Driving Robot</title>
-      <link>http://localhost:1313/projects/enph353/</link>
+      <link>https://ron-kit.github.io/projects/enph353/</link>
       <pubDate>Fri, 17 Jan 2025 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/enph353/</guid>
-      <description>&lt;p&gt;A virtual robot that detects features and navigates terrain to compete in a race. Programmed with OpenCV, connected with ROS, and simulated in Gazebo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;competition-map&#34;&gt;Competition Map&lt;/h2&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xA;    &lt;img src=&#34;353map.gif&#34; width=&#34;100%&#34; height=&#34;auto&#34; alt=&#34;&#34;&gt;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;development-log&#34;&gt;Development Log&lt;/h2&gt;&#xA;&lt;p&gt;I started with a very basic prebuilt robot, not much more than a box on wheels, and developed a system to detect the road.&#xA;The standard approach to this is to apply a Gaussian blur followed by a binary threshold, but I opted for HSV thresholding instead (seen in the cover image), which procured a very strong boundary between road and ground.&lt;/p&gt;</description>
+      <guid>https://ron-kit.github.io/projects/enph353/</guid>
+      <description>&lt;p&gt;A virtual robot that detects features and navigates terrain to compete in a race. Programmed with OpenCV, connected with ROS, and simulated in Gazebo.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h2 id=&#34;competition-map&#34;&gt;Competition Map&lt;/h2&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xA;    &lt;img src=&#34;images/353map.gif&#34; width=&#34;100%&#34; height=&#34;auto&#34; alt=&#34;&#34;&gt;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;h2 id=&#34;development-log&#34;&gt;Development Log&lt;/h2&gt;&#xA;&lt;p&gt;I started with a very basic prebuilt robot, not much more than a box on wheels, and developed a system to detect the road.&#xA;The standard approach to this is to apply a Gaussian blur followed by a binary threshold, but I opted for HSV thresholding instead (seen in the cover image), which procured a very strong boundary between road and ground.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Autonomous Cooking Robots</title>
-      <link>http://localhost:1313/projects/enph253/</link>
+      <link>https://ron-kit.github.io/projects/enph253/</link>
       <pubDate>Fri, 09 Aug 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/enph253/</guid>
-      <description>&lt;p&gt;In summer of 2024 I collaborated with three other students to build a pair of fully automatic robots that served food in a kitchen-like course.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xA;    &lt;img src=&#34;kitchen.png&#34; width=&#34;100%&#34; height=&#34;auto&#34; alt=&#34;&#34;&gt;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;The environment included various signals and surfaces for our robots to follow.&lt;/p&gt;&#xA;&lt;p&gt;I developed PCBs for the robot including a phototransistor reflectance sensor, a two-motor H-bridge, and a hardware signal debouncer, shown below.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xA;    &lt;img src=&#34;schematic.png&#34; width=&#34;100%&#34; height=&#34;auto&#34; alt=&#34;&#34;&gt;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;I routed the schematic and developed this small, stylized board.&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>Origami</title>
-      <link>http://localhost:1313/projects/origami/</link>
-      <pubDate>Mon, 01 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/projects/origami/</guid>
-      <description>&lt;p&gt;When I&amp;rsquo;m not learning or exercising I am doing origami. Here are some of my best models.&lt;/p&gt;&#xA;&lt;p&gt;Above is a Tree Frog by Satoshi Kamiya&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xA;    &lt;img src=&#34;eagle.jpeg&#34; width=&#34;100%&#34; height=&#34;auto&#34; alt=&#34;&#34;&gt;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;Harpy Eagle by Jang Yong Ik&lt;/p&gt;</description>
+      <guid>https://ron-kit.github.io/projects/enph253/</guid>
+      <description>&lt;p&gt;In summer of 2024 I collaborated with three other students to build a pair of fully automatic robots that served food in a kitchen-like course.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xA;    &lt;img src=&#34;images/kitchen.png&#34; width=&#34;100%&#34; height=&#34;auto&#34; alt=&#34;&#34;&gt;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;The environment included various signals and surfaces for our robots to follow.&lt;/p&gt;&#xA;&lt;p&gt;I developed PCBs for the robot including a phototransistor reflectance sensor, a two-motor H-bridge, and a hardware signal debouncer, shown below.&lt;/p&gt;&#xA;&lt;div style=&#34;text-align: center&#34;&gt;&#xA;    &lt;img src=&#34;images/schematic.png&#34; width=&#34;100%&#34; height=&#34;auto&#34; alt=&#34;&#34;&gt;&#xA;    &lt;p&gt;&lt;i&gt;&lt;/i&gt;&lt;/p&gt;&#xA;&lt;/div&gt;&#xA;&lt;p&gt;I routed the schematic and developed this small, stylized board.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Posts on Ron Kitainik: Blog &amp; Portfolio</title>
-    <link>http://localhost:1313/posts/</link>
-    <description>Recent content in Posts on Ron Kitainik: Blog &amp; Portfolio</description>
+    <title>Posts on Ron&#39;s Portfolio</title>
+    <link>https://ron-kit.github.io/posts/</link>
+    <description>Recent content in Posts on Ron&#39;s Portfolio</description>
     <generator>Hugo</generator>
     <language>en-us</language>
     <lastBuildDate>Sat, 31 Aug 2024 22:38:04 -0700</lastBuildDate>
-    <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://ron-kit.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>0. Hello</title>
-      <link>http://localhost:1313/posts/hello/</link>
+      <link>https://ron-kit.github.io/posts/hello/</link>
       <pubDate>Sat, 31 Aug 2024 22:38:04 -0700</pubDate>
-      <guid>http://localhost:1313/posts/hello/</guid>
+      <guid>https://ron-kit.github.io/posts/hello/</guid>
       <description>&lt;p&gt;Welcome to my website.&lt;/p&gt;&#xA;&lt;p&gt;I update it every so often with stories about my projects and other exciting things from my life.&lt;/p&gt;&#xA;&lt;p&gt;Thanks to &lt;a href=&#34;https://shengwen.me/&#34;&gt;Steven Chen&lt;/a&gt; for inspiring me to start it and helping set it up.&lt;/p&gt;&#xA;&lt;p&gt;I&amp;rsquo;m mostly a hardware guy, but my code projects can be found on my &lt;a href=&#34;https://github.com/ron-kit/&#34;&gt;github&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/Seymour.jpg&#34; alt=&#34;Engineers love hiking&#34;&gt;&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;p&gt;Below are a few tests to see if these features still work whenever I update the framework/theme&lt;/p&gt;</description>
     </item>
   </channel>

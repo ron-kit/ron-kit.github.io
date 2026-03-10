@@ -14,35 +14,42 @@
     gap: 10px;
 }
 .image-container {
-    flex: 1;
     overflow: hidden;
     display: flex;
     align-items: center;
     justify-content: center;
-    height: auto;
 }
 .side-image {
     width: 100%;
-    object-fit: cover;
+    height: 100%;
+    object-fit: contain;
 }
 </style>
 
 <script>
-    document.addEventListener("DOMContentLoaded", function() {
-        document.querySelectorAll(".side-by-side").forEach(group => {
+document.addEventListener("DOMContentLoaded", function() {
+    document.querySelectorAll(".side-by-side").forEach(group => {
+        const imgs = group.querySelectorAll(".side-image");
+        const gap = 10;
+        const totalWidth = group.clientWidth - gap;
+
+        // Wait for images to load
+        Promise.all(Array.from(imgs).map(img =>
+            img.complete ? Promise.resolve() : new Promise(r => img.onload = r)
+        )).then(() => {
+            const r0 = imgs[0].naturalWidth / imgs[0].naturalHeight;
+            const r1 = imgs[1].naturalWidth / imgs[1].naturalHeight;
+
+            // Same height h, widths r0*h + r1*h = totalWidth
+            // h = totalWidth / (r0 + r1)
+            const h = totalWidth / (r0 + r1);
+
             const containers = group.querySelectorAll(".image-container");
-            const heights = Array.from(containers).map(container =>
-                container.querySelector("img").naturalHeight / container.querySelector("img").naturalWidth
-            );
-    
-            const minHeightRatio = Math.min(...heights);
-            const width = containers[0].clientWidth;
-            const minHeight = width * minHeightRatio;
-    
-            containers.forEach(container => {
-                container.style.height = minHeight + "px";
-            });
+            containers[0].style.width = (r0 * h) + "px";
+            containers[1].style.width = (r1 * h) + "px";
+            containers[0].style.flex = "none";
+            containers[1].style.flex = "none";
         });
     });
-    </script>
-    
+});
+</script>
